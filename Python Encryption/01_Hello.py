@@ -1,0 +1,5 @@
+print("> Hello World!")
+print("> What is your name?")
+name = input("<<< ")
+# in python 2.7: name = raw_input("<<< ")
+print("> nice to meet you, " + name + "\n")
