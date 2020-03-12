@@ -1,0 +1,303 @@
+MovieProject 07 buildinglog
+--------------------------------------------------------------
+****In CMD:
+> 172-6-2-26:Python Internet Worm OurEDA$ scrapy startproject MovieProject_07
+< New Scrapy project 'MovieProject_07', using template directory '/Users/OurEDA/anaconda3/lib/python3.6/site-packages/scrapy/templates/project', created in:
+      /Users/OurEDA/learing/Python Internet Worm/MovieProject_07
+
+  You can start your first spider with:
+      cd MovieProject_07
+      scrapy genspider example example.com
+
+> 172-6-2-26:Python Internet Worm OurEDA$ cd MovieProject_07/
+> 172-6-2-26:MovieProject_07 OurEDA$ scrapy genspider wuHanMovieSpider jycinema.com
+< Created spider 'wuHanMovieSpider' using template 'basic' in module:
+    MovieProject_07.spiders.wuHanMovieSpider
+--------------------------------------------------------------
+****In items.py: select which item need get
+
+> before:
+    class Movieproject07Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+        pass
+
+< after:
+    class Movieproject07Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+        movieName = scrapy.Field()
+
+--------------------------------------------------------------
+****In wuHanMovieSpider.py: define how to get
+> before:
+    # -*- coding: utf-8 -*-
+    import scrapy
+    class WuhanmoviespiderSpider(scrapy.Spider):
+        name = 'wuHanMovieSpider'
+        allowed_domains = ['dytt8.net']
+        start_urls = ['http://www.dytt8.net/']
+
+        def parse(self, response):
+            pass
+
+< after:
+    # -*- coding: utf-8 -*-
+    import scrapy
+    from MovieProject_07.items import Movieproject07Item
+    class WuhanmoviespiderSpider(scrapy.Spider):
+        name = 'wuHanMovieSpider'
+        allowed_domains = ['dytt8.net']
+        start_urls = []
+        for i in range(1, 180):
+            start_urls.append('http://www.dytt8.net/html/gndy/dyzz/list_23_' + str(i) + '.html')
+
+        def parse(self, response):
+            subSelector = response.xpath('//td[@colspan="2" and @style="padding-left:3px"]')
+            items = []
+            for sub in subSelector:
+                item = Movieproject07Item()
+                item['movieName'] = sub.xpath("./text()").extract()
+                items.append(item)
+            return items
+--------------------------------------------------------------
+**** In pipelines.py: define how to save
+> before:
+    # -*- coding: utf-8 -*-
+    # Define your item pipelines here
+    #
+    # Don't forget to add your pipeline to the ITEM_PIPELINES setting
+    # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+
+    class Movieproject07Pipeline(object):
+        def process_item(self, item, spider):
+            return item
+
+> after:
+    # -*- coding: utf-8 -*-
+    # Define your item pipelines here
+    #
+    # Don't forget to add your pipeline to the ITEM_PIPELINES setting
+    # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+    import time
+
+    class Movieproject07Pipeline(object):
+        def process_item(self, item, spider):
+            now = time.strftime("%Y-%m-%d", time.localtime())
+            fileName = '07_movie_'+ now + '.txt'
+            f = open(fileName, 'a')
+            f.write(item["movieName"][0] + "\n")
+            f.close()
+            return item
+--------------------------------------------------------------
+**** In settings.py : start mission
+> before:
+    # -*- coding: utf-8 -*-
+    # Scrapy settings for MovieProject_07 project
+    #
+    # For simplicity, this file contains only settings considered important or
+    # commonly used. You can find more settings consulting the documentation:
+    #
+    #     https://doc.scrapy.org/en/latest/topics/settings.html
+    #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
+    #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+    BOT_NAME = 'MovieProject_07'
+    SPIDER_MODULES = ['MovieProject_07.spiders']
+    NEWSPIDER_MODULE = 'MovieProject_07.spiders'
+    # Crawl responsibly by identifying yourself (and your website) on the user-agent
+    #USER_AGENT = 'MovieProject_07 (+http://www.yourdomain.com)'
+    # Obey robots.txt rules
+    ROBOTSTXT_OBEY = True
+
+> after:
+    # -*- coding: utf-8 -*-
+    # Scrapy settings for MovieProject_07 project
+    #
+    # For simplicity, this file contains only settings considered important or
+    # commonly used. You can find more settings consulting the documentation:
+    #
+    #     https://doc.scrapy.org/en/latest/topics/settings.html
+    #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
+    #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+    BOT_NAME = 'MovieProject_07'
+    SPIDER_MODULES = ['MovieProject_07.spiders']
+    NEWSPIDER_MODULE = 'MovieProject_07.spiders'
+    # Crawl responsibly by identifying yourself (and your website) on the user-agent
+    #USER_AGENT = 'MovieProject_07 (+http://www.yourdomain.com)'
+    # Obey robots.txt rules
+    ROBOTSTXT_OBEY = True
+    # Configure item pipelines
+    # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+    ITEM_PIPELINES = {
+        'MovieProject_07.pipelines.Movieproject07Pipeline': 300,
+    }
+--------------------------------------------------------------
+****In CMD:
+> 172-6-2-26:MovieProject_07 OurEDA$ scrapy crawl wuHanMovieSpider
+<
+  
+2018-09-21 17:09:48 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: MovieProject_07)
+2018-09-21 17:09:48 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-14.5.0-x86_64-i386-64bit
+2018-09-21 17:09:48 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'MovieProject_07', 'NEWSPIDER_MODULE': 'MovieProject_07.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['MovieProject_07.spiders']}
+2018-09-21 17:09:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-21 17:09:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-21 17:09:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-21 17:09:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['MovieProject_07.pipelines.Movieproject07Pipeline']
+2018-09-21 17:09:48 [scrapy.core.engine] INFO: Spider opened
+2018-09-21 17:09:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-21 17:09:48 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-09-21 17:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.dytt8.net/robots.txt> (referer: None)
+2018-09-21 17:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.dytt8.net/html/gndy/dyzz/list_23_1.html> (referer: None)
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[人类清除计划4][BD-mkv.720p.中英双字][2018年科幻惊悚] ◎译 名 '
+               '人类清除计划4/杀戮元年(台)/国定杀戮日：屠亡前传(港) ◎片 名 The First Purge ◎年 代 2018 '
+               '◎产 地 美国 ◎类 别 科幻/犯罪/惊悚 ◎语 言 英语 ◎字 幕 中英双字幕 ◎上映日期 2018-07-04(美国) '
+               '◎']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[特工/北风/北寒谍战][BD-mkv.720p.韩语中字][2018年惊悚剧情] ◎译 名 '
+               '特工/北风(台)/北寒谍战(港)/工作 ◎片 名 The Spy Gone North / Gongjak ◎年 代 '
+               '2018 ◎产 地 韩国 ◎类 别 剧情/惊悚 ◎语 言 韩语 ◎字 幕 中文 ◎上映日期 '
+               '2018-05-11(戛纳电影节)/2018-08-0']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[与神同行2：因与缘][BD-mkv.720p.韩语中字][2018年奇幻动作] ◎译 名 '
+               '与神同行2：因与缘/与神同行：终极审判(港)/与神同行：最终审判(台)/与神同行下/和神一起2/与神同在2/与神一起2 ◎片 '
+               '名 Along With the Gods: The Last 49 Days / Along With the Gods '
+               '2 ◎年 代']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[魔女][BD-mkv.720p.韩语中字][2018年动作悬疑] ◎译 名 魔女 ◎片 名 The Witch : '
+               'Part 1. The Subversion ◎年 代 2018 ◎产 地 韩国 ◎类 别 动作/悬疑 ◎语 言 韩语 ◎字 '
+               '幕 中文 ◎上映日期 2018-06-27(韩国) ◎IMDb评分 6.4/10 from 182 users ◎豆瓣评分 '
+               '5.8/10']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[唐人街探案2][BD-mkv.720p.国语中字][2018年动作喜剧] ◎译 名 Detective Chinatown '
+               'Vol 2 ◎片 名 唐人街探案2/唐探2 ◎年 代 2018 ◎产 地 中国 ◎类 别 喜剧/动作/犯罪/悬疑 ◎语 言 '
+               '普通话 ◎字 幕 中文 ◎上映日期 2018-02-16(中国) ◎IMDb评分 6.2/10 from 916']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[心甘情愿/谍影丽人][BD-mkv.720p.中英双字][2018年惊悚动作] ◎译 名 心甘情愿/谍影丽人 ◎片 名 '
+               'Raazi ◎年 代 2018 ◎产 地 印度 ◎类 别 动作/犯罪/惊悚 ◎语 言 印地语 ◎字 幕 中英双字幕 '
+               '◎上映日期 2018-05-11(印度) ◎IMDb评分 7.9/10 from 10,109 users ◎豆']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[巨齿鲨/极悍巨鲨][BD-mkv.720p.韩版中字][2018年科幻动作] ◎译 名 巨齿鲨/极悍巨鲨(港)/麦格 ◎片 '
+               '名 The Meg ◎年 代 2018 ◎产 地 美国/中国/中国香港 ◎类 别 动作/科幻/惊悚 ◎语 言 '
+               '英语/汉语普通话/泰语 ◎字 幕 中文 ◎上映日期 2018-08-10(美国)/2018-08-10(']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[目击者/致命目击][BD-mkv.720p.韩语中字][2017年悬疑惊悚] ◎译 名 目击者/致命目击(台) ◎片 名 '
+               'The Witness ◎年 代 2018 ◎产 地 韩国 ◎类 别 悬疑/惊悚 ◎语 言 韩语 ◎字 幕 中文 ◎上映日期 '
+               '2018-08-15(韩国) ◎IMDb评分 5.7/10 from 43 users ◎豆瓣评分 5.8/']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[讨债人][BD-mkv.720p.中英双字][2018年动作] ◎译 名 讨债人 ◎片 名 The Debt '
+               'Collector ◎年 代 2018 ◎产 地 美国 ◎类 别 动作/犯罪 ◎语 言 英语 ◎字 幕 中英双字幕 '
+               '◎上映日期 2018-04-26(德国)/2018-06-05(美国) ◎IMDb评分 5.5/10 from 633 '
+               'users ◎豆瓣评分']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[风语咒/画江湖之风语咒][HD-mkv.720p.国语无字][2018年动画奇幻] ◎译 名 The Wind '
+               'Guardians ◎片 名 风语咒/画江湖之风语咒 ◎年 代 2018 ◎产 地 中国 ◎类 别 动画/奇幻 ◎语 言 '
+               '普通话 ◎字 幕 无字 ◎上映日期 2018-08-03(中国) ◎豆瓣评分 7.0/10 from 31,726']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[游侠索罗：星球大战外传][BD-mkv.720p.国语双语双字][2018年科幻动作] ◎译 名 '
+               '游侠索罗：星球大战外传/韩索罗：星球大战外传(港)/星球大战外传：游侠索罗/星球大战外传：索罗/星球大战韩索罗外传/游侠索罗/韩索罗外传/星战外传2 '
+               '◎片 名 Solo: A Star Wars Story ◎']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[奇迹赛季][BD-mkv.720p.中英双字][2018年剧情运动] ◎译 名 奇迹赛季/奇迹的赛季(台) ◎片 名 '
+               'The Miracle Season ◎年 代 2018 ◎产 地 美国 ◎类 别 剧情/运动 ◎语 言 英语 ◎字 幕 '
+               '中英双字幕 ◎上映日期 2018-04-06(美国) ◎IMDb评分 6.4/10 from 1,728 users ◎']}
+2018-09-21 17:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[曼蒂/曼迪][BD-mkv.720p.中英双字][2018年尼古拉斯凯奇动作] ◎译 名 曼蒂/曼迪 ◎片 名 Mandy '
+               '◎年 代 2018 ◎产 地 美国 ◎类 别 动作/惊悚 ◎语 言 英语 ◎字 幕 中英双字幕 ◎上映日期 '
+               '2018-01-19(圣丹斯电影节)/2018-09-14(美国) ◎IMDb评分 7.5/10 from 1,922 u']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[审判者1][HD-mkv.1080p.国语中字][2018年悬疑剧情] ◎译 名 The Adjudicator ◎片 名 '
+               '审判者1 ◎年 代 2018 ◎产 地 中国 ◎类 别 犯罪/悬疑/剧情 ◎语 言 普通话 ◎字 幕 中文 ◎上映日期 '
+               '2018-09-14(中国) ◎文件格式 x264 + aac ◎视频尺寸 1920 x 768 ◎文件大']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[碟中谍6：全面瓦解][HD-mkv.720p.韩版中英双字][2018年惊悚动作] ◎译 名 '
+               '碟中谍6：全面瓦解/碟中谍6/不可能的任务：全面瓦解(台)/职业特工队：叛逆之谜(港) ◎片 名 Mission: '
+               'Impossible - Fallout ◎年 代 2018 ◎产 地 美国 ◎类 别 动作/惊悚/冒险 ◎语 言 英语/']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[欧洲攻略][HD-mp4.1080p.国语中字][2018年梁朝伟动作] ◎译 名 Europe Raiders ◎片 名 '
+               '欧洲攻略 ◎年 代 2018 ◎产 地 中国/英国 ◎类 别 喜剧/动作/爱情 ◎语 言 '
+               '粤语/英语/普通话/意大利语/克林贡语 ◎字 幕 中文 ◎上映日期 2018-08-17(中国) ◎豆瓣评分 5.8/10 '
+               'f']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[银行家的抵抗][BD-mkv.720p.中英双字][2018年剧情战争] ◎译 名 银行家的抵抗 ◎片 名 The '
+               'Resistance Banker/Bankier van het Verzet ◎年 代 2018 ◎产 地 荷兰 ◎类 '
+               '别 剧情/战争 ◎语 言 荷兰语 ◎字 幕 中英双字幕 ◎上映日期 2018-03-08(荷兰) ◎IMDb评分 '
+               '7.1/1']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[没有好英雄][BD-mkv.720p.中英双字][2018年科幻喜剧] ◎译 名 没有好英雄 ◎片 名 No Good '
+               'Heroes ◎年 代 2018 ◎产 地 美国 ◎类 别 喜剧/科幻/恐怖 ◎语 言 英语 ◎字 幕 中英双字幕 '
+               '◎上映日期 2018-07-24(美国) ◎IMDb评分 3.3/10 from 162 users ◎豆瓣评分 /10']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[边境杀手2：边境战士][BD-mkv.720p.中英双字][2018年犯罪动作] ◎译 名 '
+               '边境杀手2：边境战士/怒火边界2：毒刑者(台)/毒裁者2(港)/边境杀手2：战士/边境杀手2：兵凶战危/边境杀手2：并肩作战 '
+               '◎片 名 Sicario: Day of the Soldado ◎年 代 2018 ◎产 地 美国/意大利 ◎']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[游侠索罗：星球大战外传][BD-mkv.720p.中英双字][2018年科幻动作] ◎译 名 '
+               '游侠索罗：星球大战外传/韩索罗：星球大战外传(港)/星球大战外传：游侠索罗/星球大战外传：索罗/星球大战韩索罗外传/游侠索罗/韩索罗外传/星战外传2 '
+               '◎片 名 Solo: A Star Wars Story ◎年 代']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[侏罗纪世界2][BD-mkv.720p.国英双语双字][2018年科幻动作] ◎译 名 '
+               '侏罗纪世界2/侏罗纪世界：殒落国度(台)/侏罗纪世界：迷失国度(港)/侏罗纪世界2：失落王国/侏罗纪世界2：堕落王国/侏罗纪公园5 '
+               '◎片 名 Jurassic World: Fallen Kingdom ◎年 代 2018 ◎产 地 美国/西']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[解码游戏/解码者][HD-mkv.1080p.国语中字][2018年动作] ◎译 名 Reborn ◎片 名 '
+               '解码游戏/解码者 ◎年 代 2018 ◎产 地 中国/中国香港/美国 ◎类 别 喜剧/动作/犯罪 ◎语 言 普通话 ◎字 幕 '
+               '中文 ◎上映日期 2018-08-03(中国) ◎IMDb评分 4.9/10 from 44 users ◎豆瓣']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[呼吸/全面霾伏][BD-mkv.720p.中英双字][2018年科幻灾难] ◎译 名 呼吸/雾袭花都/全面霾伏(台) ◎片 '
+               '名 Dans la brume / Just A Breath Away ◎年 代 2018 ◎产 地 法国/加拿大 ◎类 '
+               '别 科幻/灾难 ◎语 言 法语/英语 ◎字 幕 中英双字幕 ◎上映日期 2018-04-04(法国)/2']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[塞尔拉伯格斯是废柴][BD-mkv.720p.中英双字][2018年喜剧] ◎译 名 '
+               '塞尔拉伯格斯是废柴/鲁妹席艾拉(台)/席艾拉正废柴(港) ◎片 名 Sierra Burgess Is a Loser ◎年 '
+               '代 2018 ◎产 地 美国 ◎类 别 喜剧 ◎语 言 英语 ◎字 幕 中英双字幕 ◎上映日期 2018-09-07(美国) '
+               '◎']}
+2018-09-21 17:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.dytt8.net/html/gndy/dyzz/list_23_1.html>
+{'movieName': ['[木星之卫/天使追杀令][BD-mkv.720p.中字][2018年剧情科幻] ◎译 名 '
+               '木星之卫/天使追杀令(台)/木星之月/木星的卫星/朱比特之月/多余的人 ◎片 名 Jupiter holdja / '
+               'Jupiters Moon ◎年 代 2017 ◎产 地 匈牙利/德国 ◎类 别 剧情/科幻 ◎语 言 匈牙利语 ◎字 幕 '
+               '中文']}
+2018-09-21 17:09:50 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-09-21 17:09:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 463,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 8331,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 9, 21, 9, 9, 50, 9353),
+ 'item_scraped_count': 25,
+ 'log_count/DEBUG': 28,
+ 'log_count/INFO': 7,
+ 'memusage/max': 46362624,
+ 'memusage/startup': 46358528,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 9, 21, 9, 9, 48, 899457)}
+2018-09-21 17:09:50 [scrapy.core.engine] INFO: Spider closed (finished)

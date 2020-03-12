@@ -1,0 +1,143 @@
+MeijuProject_10 buildinglog
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:GetProxyProject_09 OurEDA$ cd ..
+> 172-6-2-26:Python Internet Worm OurEDA$ scrapy startproject MeijuProject_10
+< New Scrapy project 'MeijuProject_10', using template directory '/Users/OurEDA/anaconda3/lib/python3.6/site-packages/scrapy/templates/project', created in:
+      /Users/OurEDA/learing/Python Internet Worm/MeijuProject_10
+  You can start your first spider with:
+      cd MeijuProject_10
+      scrapy genspider example example.com
+> 172-6-2-26:Python Internet Worm OurEDA$ cd MeijuProject_10/
+> 172-6-2-26:MeijuProject_10 OurEDA$ scrapy genspider movieSpider www.meijutt.com
+< Created spider 'movieSpider' using template 'basic' in module:
+    MeijuProject_10.spiders.movieSpider
+
+--------------------------------------------------------------
+****In items.py: select which item need get
+
+    import scrapy
+    class Meijuproject10Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+        name = scrapy.Field()
+        status = scrapy.Field()
+        typ = scrapy.Field()
+        tvStation = scrapy.Field()
+        upDateTime = scrapy.Field()
+
+--------------------------------------------------------------
+****In movieSpider.py: define how to get
+
+    from MeijuProject_10.items import Meijuproject10Item
+    class MoviespiderSpider(scrapy.Spider):
+        name = 'movieSpider'
+        allowed_domains = ['www.meijutt.com']
+        start_urls = ['http://www.meijutt.com/new100.html']
+        def parse(self, response):
+            subSelector = response.xpath('//li/div[@class="lasted-num fn-left"]')
+            items = []
+            for sub in subSelector:
+                item = Meijuproject10Item()
+                item["name"] = sub.xpath('../h5/a/text()').extract()
+                item["status"] = sub.xpath('../span[@class="state1 new100state1"]/font/text()').extract()
+                item["typ"] = sub.xpath('../span[@class="mjjq"]/text()').extract()
+                item["tvStation"] = sub.xpath('../span[@class="mjtv"]/text()').extract()
+                if sub.xpath('../div[@class="lasted-time new100time fn-right"]/text()').extract():
+                    item["upDateTime"] = sub.xpath('../div[@class="lasted-time new100time fn-right"]/text()').extract()
+                else:
+                    item["upDateTime"] = sub.xpath('../div[@class="lasted-time new100time fn-right"]/font/text()').extract()
+                items.append(item)
+            return items
+
+--------------------------------------------------------------
+**** In pipelines.py: define how to save
+
+    class Meijuproject10Pipeline(object):
+        def process_item(self, item, spider):
+            fileName = "10_meiju100.txt"
+
+            f = open(fileName, "a")
+            f.write("{}\t".format(item["name"][0].strip()))
+            if item["status"]:
+                f.write("{}\t".format(item["status"][0].strip()))
+            else:
+                f.write("None\t")
+            f.write("{}\t".format(item["typ"][0].strip()))
+            f.write("{}\t".format(item["tvStation"][0].strip()))
+            f.write("{}\t".format(item["upDateTime"][0].strip()))
+            f.write("\n")
+            f.close()
+
+            return item
+
+--------------------------------------------------------------
+**** In settings.py : start mission
+
+    BOT_NAME = 'MeijuProject_10'
+    SPIDER_MODULES = ['MeijuProject_10.spiders']
+    NEWSPIDER_MODULE = 'MeijuProject_10.spiders'
+    USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.22 Safari/537.36'
+    ROBOTSTXT_OBEY = True
+    DOWNLOAD_DELAY = 2 # 减慢爬虫请求速度
+    COOKIES_ENABLED = False #禁用Cookies
+    ITEM_PIPELINES = {
+        'MeijuProject_10.pipelines.Meijuproject10Pipeline': 300,
+    }
+
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:MeijuProject_10 OurEDA$ scrapy crawl movieSpider
+
+--------------------------------------------------------------
+****In middlewares.py: add some work
+
+    from scrapy import signals
+    import random
+    from use_py.userAgents import pcUserAgent
+    from use_py.userAgents import useProxy
+    from scrapy.downloadermiddlewares.httpproxy import HttpProxyMiddleware
+    from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+
+    class randomUserAgent(UserAgentMiddleware):
+        def __init__(self, user_agent = ''):
+            self.user_agent = user_agent
+
+        def process_request(self, request, spider):
+            ua = random.choice(pcUserAgent)
+            try:
+                print('-' * 50)
+                print("> Now User-Agent: " + ua)
+                request.headers.setdefault('User-Agent', ua)
+                print('-' * 50)
+            except Exception as e:
+                print(e)
+                pass
+
+    class randomProxy(HttpProxyMiddleware):
+        def __init__(self, ip = ''):
+            self.ip = ip
+
+        def process_request(self, request, spider):
+            proxy = random.choice(useProxy)
+            try:
+                print('-' * 50)
+                temp = proxy.split(":")
+                print("> Now IP : " + temp[2] + "://" + temp[0] + ":" + temp[1])
+                request.meta["proxy"] = temp[2] + "://" + temp[0] + ":" + temp[1]
+                print('-' * 50)
+            except Exception as e:
+                print(e)
+                pass
+
+--------------------------------------------------------------
+****In settings.py
+
+DOWNLOADER_MIDDLEWARES = {
+   'MeijuProject_10.middlewares.randomUserAgent' : 1,
+   'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 2,
+   #'MeijuProject_10.middlewares.randomProxy' : 125,
+   #'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 123,
+}

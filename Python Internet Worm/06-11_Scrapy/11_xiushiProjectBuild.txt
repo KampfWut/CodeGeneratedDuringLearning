@@ -1,0 +1,87 @@
+XiuShiProject_11 buildinglog
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:Scrapy OurEDA$ scrapy startproject XiuShiProject_11
+< New Scrapy project 'XiuShiProject_11', using template directory '/Users/OurEDA/anaconda3/lib/python3.6/site-packages/scrapy/templates/project', created in:
+      /Users/OurEDA/learing/Python Internet Worm/Scrapy/XiuShiProject_11
+  You can start your first spider with:
+      cd XiuShiProject_11
+      scrapy genspider example example.com
+> 172-6-2-26:Scrapy OurEDA$ cd XiuShiProject_11/
+> 172-6-2-26:XiuShiProject_11 OurEDA$ scrapy genspider xiushiSpider qiushibaike.com
+< Created spider 'xiushiSpider' using template 'basic' in module:
+    XiuShiProject_11.spiders.xiushiSpider
+> 172-6-2-26:XiuShiProject_11 OurEDA$ 
+
+--------------------------------------------------------------
+****In items.py: select which item need get
+
+    import scrapy
+    class Xiushiproject11Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+        author = scrapy.Field()
+        content = scrapy.Field()
+        funNum = scrapy.Field()
+        talkNum = scrapy.Field()
+
+--------------------------------------------------------------
+****In xiushiSpider.py: define how to get
+
+    import scrapy
+    from XiuShiProject_11.items import Xiushiproject11Item
+    class XiushispiderSpider(scrapy.Spider):
+        name = 'xiushiSpider'
+        allowed_domains = ['qiushibaike.com']
+        start_urls = ['http://qiushibaike.com/']
+
+        def parse(self, response):
+            subSeclector = response.xpath('//div[@class="article block untagged mb15 typs_long"]')
+            items = []
+            for sub in subSeclector:
+                item = Xiushiproject11Item()
+                item["author"] = sub.xpath('./div[@class="author clearfix"]/a/h2//text()').extract()
+                item["content"] = sub.xpath('./a/div[@class="content"]/span//text()').extract()
+                item["funNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-vote"]/i//text()').extract()
+                item["talkNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-comments"]/a/i//text()').extract()
+                items.append(item)
+            subSeclector = response.xpath('//div[@class="article block untagged mb15 typs_hot"]')
+            for sub in subSeclector:
+                item = Xiushiproject11Item()
+                item["author"] = sub.xpath('./div[@class="author clearfix"]/a/h2//text()').extract()
+                item["content"] = sub.xpath('./a/div[@class="content"]/span//text()').extract()
+                item["funNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-vote"]/i//text()').extract()
+                item["talkNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-comments"]/a/i//text()').extract()
+                items.append(item)
+            subSeclector = response.xpath('//div[@class="article block untagged mb15 typs_recent"]')
+            for sub in subSeclector:
+                item = Xiushiproject11Item()
+                item["author"] = sub.xpath('./div[@class="author clearfix"]/a/h2//text()').extract()
+                item["content"] = sub.xpath('./a/div[@class="content"]/span//text()').extract()
+                item["funNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-vote"]/i//text()').extract()
+                item["talkNum"] = sub.xpath('./div[@class="stats"]/span[@class="stats-comments"]/a/i//text()').extract()
+                items.append(item)
+            return items
+
+--------------------------------------------------------------
+**** In pipelines.py: define how to save
+
+class Xiushiproject11Pipeline(object):
+    def process_item(self, item, spider):
+        fileName = "11_xiushi.txt"
+
+        f = open(fileName, "a")
+        f.write("{}\n".format(item["author"][0].strip()))
+        f.write("{}\n".format(item["content"][0].strip()))
+        f.write("{}\n".format(item["funNum"][0].strip()))
+        f.write("{}\n".format(item["talkNum"][0].strip()))
+        f.write("\n")
+        f.close()
+
+        return item
+
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:XiuShiProject_11 OurEDA$ scrapy crawl xiushiSpider

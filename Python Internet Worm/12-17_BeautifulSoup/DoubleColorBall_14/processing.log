@@ -1,0 +1,1156 @@
+2018-09-24 12:37:16,871 INFO     OurEDA     > Get the Urls success.
+
+2018-09-24 12:37:16,871 INFO     OurEDA     > Start Spider.
+
+2018-09-24 12:37:16,930 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_1.html".
+
+2018-09-24 12:37:17,046 INFO     OurEDA     > Get the item with date "2018-09-23" Success.
+
+2018-09-24 12:37:17,047 INFO     OurEDA     > Get the item with date "2018-09-20" Success.
+
+2018-09-24 12:37:17,047 INFO     OurEDA     > Get the item with date "2018-09-18" Success.
+
+2018-09-24 12:37:17,048 INFO     OurEDA     > Get the item with date "2018-09-16" Success.
+
+2018-09-24 12:37:17,048 INFO     OurEDA     > Get the item with date "2018-09-13" Success.
+
+2018-09-24 12:37:17,049 INFO     OurEDA     > Get the item with date "2018-09-11" Success.
+
+2018-09-24 12:37:17,049 INFO     OurEDA     > Get the item with date "2018-09-09" Success.
+
+2018-09-24 12:37:17,050 INFO     OurEDA     > Get the item with date "2018-09-06" Success.
+
+2018-09-24 12:37:17,050 INFO     OurEDA     > Get the item with date "2018-09-04" Success.
+
+2018-09-24 12:37:17,051 INFO     OurEDA     > Get the item with date "2018-09-02" Success.
+
+2018-09-24 12:37:17,051 INFO     OurEDA     > Get the item with date "2018-08-30" Success.
+
+2018-09-24 12:37:17,052 INFO     OurEDA     > Get the item with date "2018-08-28" Success.
+
+2018-09-24 12:37:17,052 INFO     OurEDA     > Get the item with date "2018-08-26" Success.
+
+2018-09-24 12:37:17,052 INFO     OurEDA     > Get the item with date "2018-08-23" Success.
+
+2018-09-24 12:37:17,053 INFO     OurEDA     > Get the item with date "2018-08-21" Success.
+
+2018-09-24 12:37:17,053 INFO     OurEDA     > Get the item with date "2018-08-19" Success.
+
+2018-09-24 12:37:17,054 INFO     OurEDA     > Get the item with date "2018-08-16" Success.
+
+2018-09-24 12:37:17,054 INFO     OurEDA     > Get the item with date "2018-08-14" Success.
+
+2018-09-24 12:37:17,054 INFO     OurEDA     > Get the item with date "2018-08-12" Success.
+
+2018-09-24 12:37:17,055 INFO     OurEDA     > Get the item with date "2018-08-09" Success.
+
+2018-09-24 12:37:17,114 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_2.html".
+
+2018-09-24 12:37:17,461 INFO     OurEDA     > Get the item with date "2018-08-07" Success.
+
+2018-09-24 12:37:17,462 INFO     OurEDA     > Get the item with date "2018-08-05" Success.
+
+2018-09-24 12:37:17,462 INFO     OurEDA     > Get the item with date "2018-08-02" Success.
+
+2018-09-24 12:37:17,463 INFO     OurEDA     > Get the item with date "2018-07-31" Success.
+
+2018-09-24 12:37:17,463 INFO     OurEDA     > Get the item with date "2018-07-29" Success.
+
+2018-09-24 12:37:17,464 INFO     OurEDA     > Get the item with date "2018-07-26" Success.
+
+2018-09-24 12:37:17,464 INFO     OurEDA     > Get the item with date "2018-07-24" Success.
+
+2018-09-24 12:37:17,464 INFO     OurEDA     > Get the item with date "2018-07-22" Success.
+
+2018-09-24 12:37:17,465 INFO     OurEDA     > Get the item with date "2018-07-19" Success.
+
+2018-09-24 12:37:17,465 INFO     OurEDA     > Get the item with date "2018-07-17" Success.
+
+2018-09-24 12:37:17,466 INFO     OurEDA     > Get the item with date "2018-07-15" Success.
+
+2018-09-24 12:37:17,466 INFO     OurEDA     > Get the item with date "2018-07-12" Success.
+
+2018-09-24 12:37:17,466 INFO     OurEDA     > Get the item with date "2018-07-10" Success.
+
+2018-09-24 12:37:17,467 INFO     OurEDA     > Get the item with date "2018-07-08" Success.
+
+2018-09-24 12:37:17,467 INFO     OurEDA     > Get the item with date "2018-07-05" Success.
+
+2018-09-24 12:37:17,468 INFO     OurEDA     > Get the item with date "2018-07-03" Success.
+
+2018-09-24 12:37:17,468 INFO     OurEDA     > Get the item with date "2018-07-01" Success.
+
+2018-09-24 12:37:17,468 INFO     OurEDA     > Get the item with date "2018-06-28" Success.
+
+2018-09-24 12:37:17,469 INFO     OurEDA     > Get the item with date "2018-06-26" Success.
+
+2018-09-24 12:37:17,469 INFO     OurEDA     > Get the item with date "2018-06-24" Success.
+
+2018-09-24 12:37:17,518 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_3.html".
+
+2018-09-24 12:37:17,684 INFO     OurEDA     > Get the item with date "2018-06-21" Success.
+
+2018-09-24 12:37:17,685 INFO     OurEDA     > Get the item with date "2018-06-19" Success.
+
+2018-09-24 12:37:17,685 INFO     OurEDA     > Get the item with date "2018-06-17" Success.
+
+2018-09-24 12:37:17,686 INFO     OurEDA     > Get the item with date "2018-06-14" Success.
+
+2018-09-24 12:37:17,686 INFO     OurEDA     > Get the item with date "2018-06-12" Success.
+
+2018-09-24 12:37:17,687 INFO     OurEDA     > Get the item with date "2018-06-10" Success.
+
+2018-09-24 12:37:17,687 INFO     OurEDA     > Get the item with date "2018-06-07" Success.
+
+2018-09-24 12:37:17,688 INFO     OurEDA     > Get the item with date "2018-06-05" Success.
+
+2018-09-24 12:37:17,688 INFO     OurEDA     > Get the item with date "2018-06-03" Success.
+
+2018-09-24 12:37:17,689 INFO     OurEDA     > Get the item with date "2018-05-31" Success.
+
+2018-09-24 12:37:17,689 INFO     OurEDA     > Get the item with date "2018-05-29" Success.
+
+2018-09-24 12:37:17,690 INFO     OurEDA     > Get the item with date "2018-05-27" Success.
+
+2018-09-24 12:37:17,690 INFO     OurEDA     > Get the item with date "2018-05-24" Success.
+
+2018-09-24 12:37:17,690 INFO     OurEDA     > Get the item with date "2018-05-22" Success.
+
+2018-09-24 12:37:17,691 INFO     OurEDA     > Get the item with date "2018-05-20" Success.
+
+2018-09-24 12:37:17,691 INFO     OurEDA     > Get the item with date "2018-05-17" Success.
+
+2018-09-24 12:37:17,692 INFO     OurEDA     > Get the item with date "2018-05-15" Success.
+
+2018-09-24 12:37:17,692 INFO     OurEDA     > Get the item with date "2018-05-13" Success.
+
+2018-09-24 12:37:17,692 INFO     OurEDA     > Get the item with date "2018-05-10" Success.
+
+2018-09-24 12:37:17,693 INFO     OurEDA     > Get the item with date "2018-05-08" Success.
+
+2018-09-24 12:37:17,742 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_4.html".
+
+2018-09-24 12:37:17,926 INFO     OurEDA     > Get the item with date "2018-05-06" Success.
+
+2018-09-24 12:37:17,926 INFO     OurEDA     > Get the item with date "2018-05-03" Success.
+
+2018-09-24 12:37:17,926 INFO     OurEDA     > Get the item with date "2018-05-01" Success.
+
+2018-09-24 12:37:17,927 INFO     OurEDA     > Get the item with date "2018-04-29" Success.
+
+2018-09-24 12:37:17,927 INFO     OurEDA     > Get the item with date "2018-04-26" Success.
+
+2018-09-24 12:37:17,928 INFO     OurEDA     > Get the item with date "2018-04-24" Success.
+
+2018-09-24 12:37:17,928 INFO     OurEDA     > Get the item with date "2018-04-22" Success.
+
+2018-09-24 12:37:17,929 INFO     OurEDA     > Get the item with date "2018-04-19" Success.
+
+2018-09-24 12:37:17,929 INFO     OurEDA     > Get the item with date "2018-04-17" Success.
+
+2018-09-24 12:37:17,929 INFO     OurEDA     > Get the item with date "2018-04-15" Success.
+
+2018-09-24 12:37:17,930 INFO     OurEDA     > Get the item with date "2018-04-12" Success.
+
+2018-09-24 12:37:17,930 INFO     OurEDA     > Get the item with date "2018-04-10" Success.
+
+2018-09-24 12:37:17,931 INFO     OurEDA     > Get the item with date "2018-04-08" Success.
+
+2018-09-24 12:37:17,931 INFO     OurEDA     > Get the item with date "2018-04-05" Success.
+
+2018-09-24 12:37:17,932 INFO     OurEDA     > Get the item with date "2018-04-03" Success.
+
+2018-09-24 12:37:17,932 INFO     OurEDA     > Get the item with date "2018-04-01" Success.
+
+2018-09-24 12:37:17,932 INFO     OurEDA     > Get the item with date "2018-03-29" Success.
+
+2018-09-24 12:37:17,933 INFO     OurEDA     > Get the item with date "2018-03-27" Success.
+
+2018-09-24 12:37:17,933 INFO     OurEDA     > Get the item with date "2018-03-25" Success.
+
+2018-09-24 12:37:17,934 INFO     OurEDA     > Get the item with date "2018-03-22" Success.
+
+2018-09-24 12:37:17,987 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_5.html".
+
+2018-09-24 12:37:18,128 INFO     OurEDA     > Get the item with date "2018-03-20" Success.
+
+2018-09-24 12:37:18,129 INFO     OurEDA     > Get the item with date "2018-03-18" Success.
+
+2018-09-24 12:37:18,130 INFO     OurEDA     > Get the item with date "2018-03-15" Success.
+
+2018-09-24 12:37:18,130 INFO     OurEDA     > Get the item with date "2018-03-13" Success.
+
+2018-09-24 12:37:18,131 INFO     OurEDA     > Get the item with date "2018-03-11" Success.
+
+2018-09-24 12:37:18,131 INFO     OurEDA     > Get the item with date "2018-03-08" Success.
+
+2018-09-24 12:37:18,132 INFO     OurEDA     > Get the item with date "2018-03-06" Success.
+
+2018-09-24 12:37:18,132 INFO     OurEDA     > Get the item with date "2018-03-04" Success.
+
+2018-09-24 12:37:18,133 INFO     OurEDA     > Get the item with date "2018-03-01" Success.
+
+2018-09-24 12:37:18,134 INFO     OurEDA     > Get the item with date "2018-02-27" Success.
+
+2018-09-24 12:37:18,134 INFO     OurEDA     > Get the item with date "2018-02-25" Success.
+
+2018-09-24 12:37:18,135 INFO     OurEDA     > Get the item with date "2018-02-22" Success.
+
+2018-09-24 12:37:18,135 INFO     OurEDA     > Get the item with date "2018-02-13" Success.
+
+2018-09-24 12:37:18,136 INFO     OurEDA     > Get the item with date "2018-02-11" Success.
+
+2018-09-24 12:37:18,136 INFO     OurEDA     > Get the item with date "2018-02-08" Success.
+
+2018-09-24 12:37:18,137 INFO     OurEDA     > Get the item with date "2018-02-06" Success.
+
+2018-09-24 12:37:18,137 INFO     OurEDA     > Get the item with date "2018-02-04" Success.
+
+2018-09-24 12:37:18,138 INFO     OurEDA     > Get the item with date "2018-02-01" Success.
+
+2018-09-24 12:37:18,138 INFO     OurEDA     > Get the item with date "2018-01-30" Success.
+
+2018-09-24 12:37:18,139 INFO     OurEDA     > Get the item with date "2018-01-28" Success.
+
+2018-09-24 12:37:18,190 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_6.html".
+
+2018-09-24 12:37:18,355 INFO     OurEDA     > Get the item with date "2018-01-25" Success.
+
+2018-09-24 12:37:18,355 INFO     OurEDA     > Get the item with date "2018-01-23" Success.
+
+2018-09-24 12:37:18,356 INFO     OurEDA     > Get the item with date "2018-01-21" Success.
+
+2018-09-24 12:37:18,356 INFO     OurEDA     > Get the item with date "2018-01-18" Success.
+
+2018-09-24 12:37:18,357 INFO     OurEDA     > Get the item with date "2018-01-16" Success.
+
+2018-09-24 12:37:18,357 INFO     OurEDA     > Get the item with date "2018-01-14" Success.
+
+2018-09-24 12:37:18,358 INFO     OurEDA     > Get the item with date "2018-01-11" Success.
+
+2018-09-24 12:37:18,358 INFO     OurEDA     > Get the item with date "2018-01-09" Success.
+
+2018-09-24 12:37:18,359 INFO     OurEDA     > Get the item with date "2018-01-07" Success.
+
+2018-09-24 12:37:18,359 INFO     OurEDA     > Get the item with date "2018-01-04" Success.
+
+2018-09-24 12:37:18,360 INFO     OurEDA     > Get the item with date "2018-01-02" Success.
+
+2018-09-24 12:37:18,360 INFO     OurEDA     > Get the item with date "2017-12-31" Success.
+
+2018-09-24 12:37:18,360 INFO     OurEDA     > Get the item with date "2017-12-28" Success.
+
+2018-09-24 12:37:18,361 INFO     OurEDA     > Get the item with date "2017-12-26" Success.
+
+2018-09-24 12:37:18,361 INFO     OurEDA     > Get the item with date "2017-12-24" Success.
+
+2018-09-24 12:37:18,362 INFO     OurEDA     > Get the item with date "2017-12-21" Success.
+
+2018-09-24 12:37:18,362 INFO     OurEDA     > Get the item with date "2017-12-19" Success.
+
+2018-09-24 12:37:18,363 INFO     OurEDA     > Get the item with date "2017-12-17" Success.
+
+2018-09-24 12:37:18,363 INFO     OurEDA     > Get the item with date "2017-12-14" Success.
+
+2018-09-24 12:37:18,363 INFO     OurEDA     > Get the item with date "2017-12-12" Success.
+
+2018-09-24 12:37:18,421 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_7.html".
+
+2018-09-24 12:37:18,627 INFO     OurEDA     > Get the item with date "2017-12-10" Success.
+
+2018-09-24 12:37:18,628 INFO     OurEDA     > Get the item with date "2017-12-07" Success.
+
+2018-09-24 12:37:18,628 INFO     OurEDA     > Get the item with date "2017-12-05" Success.
+
+2018-09-24 12:37:18,629 INFO     OurEDA     > Get the item with date "2017-12-03" Success.
+
+2018-09-24 12:37:18,629 INFO     OurEDA     > Get the item with date "2017-11-30" Success.
+
+2018-09-24 12:37:18,630 INFO     OurEDA     > Get the item with date "2017-11-28" Success.
+
+2018-09-24 12:37:18,630 INFO     OurEDA     > Get the item with date "2017-11-26" Success.
+
+2018-09-24 12:37:18,630 INFO     OurEDA     > Get the item with date "2017-11-23" Success.
+
+2018-09-24 12:37:18,631 INFO     OurEDA     > Get the item with date "2017-11-21" Success.
+
+2018-09-24 12:37:18,631 INFO     OurEDA     > Get the item with date "2017-11-19" Success.
+
+2018-09-24 12:37:18,632 INFO     OurEDA     > Get the item with date "2017-11-16" Success.
+
+2018-09-24 12:37:18,632 INFO     OurEDA     > Get the item with date "2017-11-14" Success.
+
+2018-09-24 12:37:18,633 INFO     OurEDA     > Get the item with date "2017-11-12" Success.
+
+2018-09-24 12:37:18,634 INFO     OurEDA     > Get the item with date "2017-11-09" Success.
+
+2018-09-24 12:37:18,634 INFO     OurEDA     > Get the item with date "2017-11-07" Success.
+
+2018-09-24 12:37:18,635 INFO     OurEDA     > Get the item with date "2017-11-05" Success.
+
+2018-09-24 12:37:18,635 INFO     OurEDA     > Get the item with date "2017-11-02" Success.
+
+2018-09-24 12:37:18,636 INFO     OurEDA     > Get the item with date "2017-10-31" Success.
+
+2018-09-24 12:37:18,636 INFO     OurEDA     > Get the item with date "2017-10-29" Success.
+
+2018-09-24 12:37:18,637 INFO     OurEDA     > Get the item with date "2017-10-26" Success.
+
+2018-09-24 12:37:18,691 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_8.html".
+
+2018-09-24 12:37:18,869 INFO     OurEDA     > Get the item with date "2017-10-24" Success.
+
+2018-09-24 12:37:18,870 INFO     OurEDA     > Get the item with date "2017-10-22" Success.
+
+2018-09-24 12:37:18,872 INFO     OurEDA     > Get the item with date "2017-10-19" Success.
+
+2018-09-24 12:37:18,873 INFO     OurEDA     > Get the item with date "2017-10-17" Success.
+
+2018-09-24 12:37:18,874 INFO     OurEDA     > Get the item with date "2017-10-15" Success.
+
+2018-09-24 12:37:18,875 INFO     OurEDA     > Get the item with date "2017-10-12" Success.
+
+2018-09-24 12:37:18,876 INFO     OurEDA     > Get the item with date "2017-10-10" Success.
+
+2018-09-24 12:37:18,877 INFO     OurEDA     > Get the item with date "2017-10-08" Success.
+
+2018-09-24 12:37:18,877 INFO     OurEDA     > Get the item with date "2017-10-05" Success.
+
+2018-09-24 12:37:18,878 INFO     OurEDA     > Get the item with date "2017-10-03" Success.
+
+2018-09-24 12:37:18,879 INFO     OurEDA     > Get the item with date "2017-10-01" Success.
+
+2018-09-24 12:37:18,879 INFO     OurEDA     > Get the item with date "2017-09-28" Success.
+
+2018-09-24 12:37:18,880 INFO     OurEDA     > Get the item with date "2017-09-26" Success.
+
+2018-09-24 12:37:18,880 INFO     OurEDA     > Get the item with date "2017-09-24" Success.
+
+2018-09-24 12:37:18,881 INFO     OurEDA     > Get the item with date "2017-09-21" Success.
+
+2018-09-24 12:37:18,882 INFO     OurEDA     > Get the item with date "2017-09-19" Success.
+
+2018-09-24 12:37:18,882 INFO     OurEDA     > Get the item with date "2017-09-17" Success.
+
+2018-09-24 12:37:18,883 INFO     OurEDA     > Get the item with date "2017-09-14" Success.
+
+2018-09-24 12:37:18,883 INFO     OurEDA     > Get the item with date "2017-09-12" Success.
+
+2018-09-24 12:37:18,884 INFO     OurEDA     > Get the item with date "2017-09-10" Success.
+
+2018-09-24 12:37:18,937 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_9.html".
+
+2018-09-24 12:37:19,095 INFO     OurEDA     > Get the item with date "2017-09-07" Success.
+
+2018-09-24 12:37:19,095 INFO     OurEDA     > Get the item with date "2017-09-05" Success.
+
+2018-09-24 12:37:19,096 INFO     OurEDA     > Get the item with date "2017-09-03" Success.
+
+2018-09-24 12:37:19,096 INFO     OurEDA     > Get the item with date "2017-08-31" Success.
+
+2018-09-24 12:37:19,097 INFO     OurEDA     > Get the item with date "2017-08-29" Success.
+
+2018-09-24 12:37:19,097 INFO     OurEDA     > Get the item with date "2017-08-27" Success.
+
+2018-09-24 12:37:19,098 INFO     OurEDA     > Get the item with date "2017-08-24" Success.
+
+2018-09-24 12:37:19,098 INFO     OurEDA     > Get the item with date "2017-08-22" Success.
+
+2018-09-24 12:37:19,099 INFO     OurEDA     > Get the item with date "2017-08-20" Success.
+
+2018-09-24 12:37:19,099 INFO     OurEDA     > Get the item with date "2017-08-17" Success.
+
+2018-09-24 12:37:19,100 INFO     OurEDA     > Get the item with date "2017-08-15" Success.
+
+2018-09-24 12:37:19,100 INFO     OurEDA     > Get the item with date "2017-08-13" Success.
+
+2018-09-24 12:37:19,101 INFO     OurEDA     > Get the item with date "2017-08-10" Success.
+
+2018-09-24 12:37:19,101 INFO     OurEDA     > Get the item with date "2017-08-08" Success.
+
+2018-09-24 12:37:19,102 INFO     OurEDA     > Get the item with date "2017-08-06" Success.
+
+2018-09-24 12:37:19,102 INFO     OurEDA     > Get the item with date "2017-08-03" Success.
+
+2018-09-24 12:37:19,103 INFO     OurEDA     > Get the item with date "2017-08-01" Success.
+
+2018-09-24 12:37:19,103 INFO     OurEDA     > Get the item with date "2017-07-30" Success.
+
+2018-09-24 12:37:19,104 INFO     OurEDA     > Get the item with date "2017-07-27" Success.
+
+2018-09-24 12:37:19,104 INFO     OurEDA     > Get the item with date "2017-07-25" Success.
+
+2018-09-24 12:37:19,161 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_10.html".
+
+2018-09-24 12:37:19,392 INFO     OurEDA     > Get the item with date "2017-07-23" Success.
+
+2018-09-24 12:37:19,393 INFO     OurEDA     > Get the item with date "2017-07-20" Success.
+
+2018-09-24 12:37:19,393 INFO     OurEDA     > Get the item with date "2017-07-18" Success.
+
+2018-09-24 12:37:19,394 INFO     OurEDA     > Get the item with date "2017-07-16" Success.
+
+2018-09-24 12:37:19,394 INFO     OurEDA     > Get the item with date "2017-07-13" Success.
+
+2018-09-24 12:37:19,395 INFO     OurEDA     > Get the item with date "2017-07-11" Success.
+
+2018-09-24 12:37:19,395 INFO     OurEDA     > Get the item with date "2017-07-09" Success.
+
+2018-09-24 12:37:19,396 INFO     OurEDA     > Get the item with date "2017-07-06" Success.
+
+2018-09-24 12:37:19,396 INFO     OurEDA     > Get the item with date "2017-07-04" Success.
+
+2018-09-24 12:37:19,396 INFO     OurEDA     > Get the item with date "2017-07-02" Success.
+
+2018-09-24 12:37:19,397 INFO     OurEDA     > Get the item with date "2017-06-29" Success.
+
+2018-09-24 12:37:19,397 INFO     OurEDA     > Get the item with date "2017-06-27" Success.
+
+2018-09-24 12:37:19,398 INFO     OurEDA     > Get the item with date "2017-06-25" Success.
+
+2018-09-24 12:37:19,398 INFO     OurEDA     > Get the item with date "2017-06-22" Success.
+
+2018-09-24 12:37:19,398 INFO     OurEDA     > Get the item with date "2017-06-20" Success.
+
+2018-09-24 12:37:19,399 INFO     OurEDA     > Get the item with date "2017-06-18" Success.
+
+2018-09-24 12:37:19,399 INFO     OurEDA     > Get the item with date "2017-06-15" Success.
+
+2018-09-24 12:37:19,400 INFO     OurEDA     > Get the item with date "2017-06-13" Success.
+
+2018-09-24 12:37:19,400 INFO     OurEDA     > Get the item with date "2017-06-11" Success.
+
+2018-09-24 12:37:19,401 INFO     OurEDA     > Get the item with date "2017-06-08" Success.
+
+2018-09-24 12:37:19,452 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_11.html".
+
+2018-09-24 12:37:20,006 INFO     OurEDA     > Get the item with date "2017-06-06" Success.
+
+2018-09-24 12:37:20,007 INFO     OurEDA     > Get the item with date "2017-06-04" Success.
+
+2018-09-24 12:37:20,007 INFO     OurEDA     > Get the item with date "2017-06-01" Success.
+
+2018-09-24 12:37:20,008 INFO     OurEDA     > Get the item with date "2017-05-30" Success.
+
+2018-09-24 12:37:20,008 INFO     OurEDA     > Get the item with date "2017-05-28" Success.
+
+2018-09-24 12:37:20,009 INFO     OurEDA     > Get the item with date "2017-05-25" Success.
+
+2018-09-24 12:37:20,009 INFO     OurEDA     > Get the item with date "2017-05-23" Success.
+
+2018-09-24 12:37:20,010 INFO     OurEDA     > Get the item with date "2017-05-21" Success.
+
+2018-09-24 12:37:20,010 INFO     OurEDA     > Get the item with date "2017-05-18" Success.
+
+2018-09-24 12:37:20,011 INFO     OurEDA     > Get the item with date "2017-05-16" Success.
+
+2018-09-24 12:37:20,011 INFO     OurEDA     > Get the item with date "2017-05-14" Success.
+
+2018-09-24 12:37:20,012 INFO     OurEDA     > Get the item with date "2017-05-11" Success.
+
+2018-09-24 12:37:20,012 INFO     OurEDA     > Get the item with date "2017-05-09" Success.
+
+2018-09-24 12:37:20,013 INFO     OurEDA     > Get the item with date "2017-05-07" Success.
+
+2018-09-24 12:37:20,013 INFO     OurEDA     > Get the item with date "2017-05-04" Success.
+
+2018-09-24 12:37:20,014 INFO     OurEDA     > Get the item with date "2017-05-02" Success.
+
+2018-09-24 12:37:20,014 INFO     OurEDA     > Get the item with date "2017-04-30" Success.
+
+2018-09-24 12:37:20,014 INFO     OurEDA     > Get the item with date "2017-04-27" Success.
+
+2018-09-24 12:37:20,015 INFO     OurEDA     > Get the item with date "2017-04-25" Success.
+
+2018-09-24 12:37:20,015 INFO     OurEDA     > Get the item with date "2017-04-23" Success.
+
+2018-09-24 12:37:20,105 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_12.html".
+
+2018-09-24 12:37:20,363 INFO     OurEDA     > Get the item with date "2017-04-20" Success.
+
+2018-09-24 12:37:20,364 INFO     OurEDA     > Get the item with date "2017-04-18" Success.
+
+2018-09-24 12:37:20,364 INFO     OurEDA     > Get the item with date "2017-04-16" Success.
+
+2018-09-24 12:37:20,365 INFO     OurEDA     > Get the item with date "2017-04-13" Success.
+
+2018-09-24 12:37:20,365 INFO     OurEDA     > Get the item with date "2017-04-11" Success.
+
+2018-09-24 12:37:20,366 INFO     OurEDA     > Get the item with date "2017-04-09" Success.
+
+2018-09-24 12:37:20,366 INFO     OurEDA     > Get the item with date "2017-04-06" Success.
+
+2018-09-24 12:37:20,367 INFO     OurEDA     > Get the item with date "2017-04-04" Success.
+
+2018-09-24 12:37:20,367 INFO     OurEDA     > Get the item with date "2017-04-02" Success.
+
+2018-09-24 12:37:20,367 INFO     OurEDA     > Get the item with date "2017-03-30" Success.
+
+2018-09-24 12:37:20,368 INFO     OurEDA     > Get the item with date "2017-03-28" Success.
+
+2018-09-24 12:37:20,368 INFO     OurEDA     > Get the item with date "2017-03-26" Success.
+
+2018-09-24 12:37:20,369 INFO     OurEDA     > Get the item with date "2017-03-23" Success.
+
+2018-09-24 12:37:20,369 INFO     OurEDA     > Get the item with date "2017-03-21" Success.
+
+2018-09-24 12:37:20,370 INFO     OurEDA     > Get the item with date "2017-03-19" Success.
+
+2018-09-24 12:37:20,370 INFO     OurEDA     > Get the item with date "2017-03-16" Success.
+
+2018-09-24 12:37:20,371 INFO     OurEDA     > Get the item with date "2017-03-14" Success.
+
+2018-09-24 12:37:20,371 INFO     OurEDA     > Get the item with date "2017-03-12" Success.
+
+2018-09-24 12:37:20,372 INFO     OurEDA     > Get the item with date "2017-03-09" Success.
+
+2018-09-24 12:37:20,372 INFO     OurEDA     > Get the item with date "2017-03-07" Success.
+
+2018-09-24 12:37:20,423 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_13.html".
+
+2018-09-24 12:37:20,600 INFO     OurEDA     > Get the item with date "2017-03-05" Success.
+
+2018-09-24 12:37:20,600 INFO     OurEDA     > Get the item with date "2017-03-02" Success.
+
+2018-09-24 12:37:20,601 INFO     OurEDA     > Get the item with date "2017-02-28" Success.
+
+2018-09-24 12:37:20,601 INFO     OurEDA     > Get the item with date "2017-02-26" Success.
+
+2018-09-24 12:37:20,602 INFO     OurEDA     > Get the item with date "2017-02-23" Success.
+
+2018-09-24 12:37:20,602 INFO     OurEDA     > Get the item with date "2017-02-21" Success.
+
+2018-09-24 12:37:20,603 INFO     OurEDA     > Get the item with date "2017-02-19" Success.
+
+2018-09-24 12:37:20,603 INFO     OurEDA     > Get the item with date "2017-02-16" Success.
+
+2018-09-24 12:37:20,604 INFO     OurEDA     > Get the item with date "2017-02-14" Success.
+
+2018-09-24 12:37:20,604 INFO     OurEDA     > Get the item with date "2017-02-12" Success.
+
+2018-09-24 12:37:20,605 INFO     OurEDA     > Get the item with date "2017-02-09" Success.
+
+2018-09-24 12:37:20,605 INFO     OurEDA     > Get the item with date "2017-02-07" Success.
+
+2018-09-24 12:37:20,606 INFO     OurEDA     > Get the item with date "2017-02-05" Success.
+
+2018-09-24 12:37:20,606 INFO     OurEDA     > Get the item with date "2017-01-26" Success.
+
+2018-09-24 12:37:20,607 INFO     OurEDA     > Get the item with date "2017-01-24" Success.
+
+2018-09-24 12:37:20,607 INFO     OurEDA     > Get the item with date "2017-01-22" Success.
+
+2018-09-24 12:37:20,608 INFO     OurEDA     > Get the item with date "2017-01-19" Success.
+
+2018-09-24 12:37:20,608 INFO     OurEDA     > Get the item with date "2017-01-17" Success.
+
+2018-09-24 12:37:20,608 INFO     OurEDA     > Get the item with date "2017-01-15" Success.
+
+2018-09-24 12:37:20,609 INFO     OurEDA     > Get the item with date "2017-01-12" Success.
+
+2018-09-24 12:37:20,668 INFO     OurEDA     > Back url Success, Url is "http://kaijiang.zhcw.com/zhcw/html/ssq/list_14.html".
+
+2018-09-24 12:37:20,955 INFO     OurEDA     > Get the item with date "2017-01-10" Success.
+
+2018-09-24 12:37:20,956 INFO     OurEDA     > Get the item with date "2017-01-08" Success.
+
+2018-09-24 12:37:20,957 INFO     OurEDA     > Get the item with date "2017-01-05" Success.
+
+2018-09-24 12:37:20,957 INFO     OurEDA     > Get the item with date "2017-01-03" Success.
+
+2018-09-24 12:37:20,957 INFO     OurEDA     > Get the item with date "2017-01-01" Success.
+
+2018-09-24 12:37:20,958 INFO     OurEDA     > Get the item with date "2016-12-29" Success.
+
+2018-09-24 12:37:20,958 INFO     OurEDA     > Get the item with date "2016-12-27" Success.
+
+2018-09-24 12:37:20,959 INFO     OurEDA     > Get the item with date "2016-12-25" Success.
+
+2018-09-24 12:37:20,959 INFO     OurEDA     > Get the item with date "2016-12-22" Success.
+
+2018-09-24 12:37:20,960 INFO     OurEDA     > Get the item with date "2016-12-20" Success.
+
+2018-09-24 12:37:20,960 INFO     OurEDA     > Get the item with date "2016-12-18" Success.
+
+2018-09-24 12:37:20,961 INFO     OurEDA     > Get the item with date "2016-12-15" Success.
+
+2018-09-24 12:37:20,961 INFO     OurEDA     > Get the item with date "2016-12-13" Success.
+
+2018-09-24 12:37:20,961 INFO     OurEDA     > Get the item with date "2016-12-11" Success.
+
+2018-09-24 12:37:20,962 INFO     OurEDA     > Get the item with date "2016-12-08" Success.
+
+2018-09-24 12:37:20,962 INFO     OurEDA     > Get the item with date "2016-12-06" Success.
+
+2018-09-24 12:37:20,963 INFO     OurEDA     > Get the item with date "2016-12-04" Success.
+
+2018-09-24 12:37:20,963 INFO     OurEDA     > Get the item with date "2016-12-01" Success.
+
+2018-09-24 12:37:20,964 INFO     OurEDA     > Get the item with date "2016-11-29" Success.
+
+2018-09-24 12:37:20,964 INFO     OurEDA     > Get the item with date "2016-11-27" Success.
+
+2018-09-24 12:37:20,965 INFO     OurEDA     > Start Pipelines.
+
+2018-09-24 12:37:20,965 INFO     OurEDA     > Save date-"2018-09-23" in to file Success.
+
+2018-09-24 12:37:20,965 INFO     OurEDA     > Save date-"2018-09-20" in to file Success.
+
+2018-09-24 12:37:20,965 INFO     OurEDA     > Save date-"2018-09-18" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-16" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-13" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-11" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-09" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-06" in to file Success.
+
+2018-09-24 12:37:20,966 INFO     OurEDA     > Save date-"2018-09-04" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-09-02" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-30" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-28" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-26" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-23" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-21" in to file Success.
+
+2018-09-24 12:37:20,967 INFO     OurEDA     > Save date-"2018-08-19" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-16" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-14" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-12" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-09" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-07" in to file Success.
+
+2018-09-24 12:37:20,968 INFO     OurEDA     > Save date-"2018-08-05" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-08-02" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-07-31" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-07-29" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-07-26" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-07-24" in to file Success.
+
+2018-09-24 12:37:20,969 INFO     OurEDA     > Save date-"2018-07-22" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-19" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-17" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-15" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-12" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-10" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-08" in to file Success.
+
+2018-09-24 12:37:20,970 INFO     OurEDA     > Save date-"2018-07-05" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-07-03" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-07-01" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-06-28" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-06-26" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-06-24" in to file Success.
+
+2018-09-24 12:37:20,971 INFO     OurEDA     > Save date-"2018-06-21" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-19" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-17" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-14" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-12" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-10" in to file Success.
+
+2018-09-24 12:37:20,972 INFO     OurEDA     > Save date-"2018-06-07" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-06-05" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-06-03" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-05-31" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-05-29" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-05-27" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-05-24" in to file Success.
+
+2018-09-24 12:37:20,973 INFO     OurEDA     > Save date-"2018-05-22" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-20" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-17" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-15" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-13" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-10" in to file Success.
+
+2018-09-24 12:37:20,974 INFO     OurEDA     > Save date-"2018-05-08" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-05-06" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-05-03" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-05-01" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-04-29" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-04-26" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-04-24" in to file Success.
+
+2018-09-24 12:37:20,975 INFO     OurEDA     > Save date-"2018-04-22" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-19" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-17" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-15" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-12" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-10" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-08" in to file Success.
+
+2018-09-24 12:37:20,976 INFO     OurEDA     > Save date-"2018-04-05" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-04-03" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-04-01" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-03-29" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-03-27" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-03-25" in to file Success.
+
+2018-09-24 12:37:20,977 INFO     OurEDA     > Save date-"2018-03-22" in to file Success.
+
+2018-09-24 12:37:20,978 INFO     OurEDA     > Save date-"2018-03-20" in to file Success.
+
+2018-09-24 12:37:20,978 INFO     OurEDA     > Save date-"2018-03-18" in to file Success.
+
+2018-09-24 12:37:20,978 INFO     OurEDA     > Save date-"2018-03-15" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-13" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-11" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-08" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-06" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-04" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-03-01" in to file Success.
+
+2018-09-24 12:37:20,979 INFO     OurEDA     > Save date-"2018-02-27" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-25" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-22" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-13" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-11" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-08" in to file Success.
+
+2018-09-24 12:37:20,980 INFO     OurEDA     > Save date-"2018-02-06" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-02-04" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-02-01" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-01-30" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-01-28" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-01-25" in to file Success.
+
+2018-09-24 12:37:20,981 INFO     OurEDA     > Save date-"2018-01-23" in to file Success.
+
+2018-09-24 12:37:20,982 INFO     OurEDA     > Save date-"2018-01-21" in to file Success.
+
+2018-09-24 12:37:20,982 INFO     OurEDA     > Save date-"2018-01-18" in to file Success.
+
+2018-09-24 12:37:20,982 INFO     OurEDA     > Save date-"2018-01-16" in to file Success.
+
+2018-09-24 12:37:20,982 INFO     OurEDA     > Save date-"2018-01-14" in to file Success.
+
+2018-09-24 12:37:20,982 INFO     OurEDA     > Save date-"2018-01-11" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2018-01-09" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2018-01-07" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2018-01-04" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2018-01-02" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2017-12-31" in to file Success.
+
+2018-09-24 12:37:20,983 INFO     OurEDA     > Save date-"2017-12-28" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-26" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-24" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-21" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-19" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-17" in to file Success.
+
+2018-09-24 12:37:20,984 INFO     OurEDA     > Save date-"2017-12-14" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-12-12" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-12-10" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-12-07" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-12-05" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-12-03" in to file Success.
+
+2018-09-24 12:37:20,985 INFO     OurEDA     > Save date-"2017-11-30" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-28" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-26" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-23" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-21" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-19" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-16" in to file Success.
+
+2018-09-24 12:37:20,986 INFO     OurEDA     > Save date-"2017-11-14" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-11-12" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-11-09" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-11-07" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-11-05" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-11-02" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-10-31" in to file Success.
+
+2018-09-24 12:37:20,987 INFO     OurEDA     > Save date-"2017-10-29" in to file Success.
+
+2018-09-24 12:37:20,988 INFO     OurEDA     > Save date-"2017-10-26" in to file Success.
+
+2018-09-24 12:37:20,988 INFO     OurEDA     > Save date-"2017-10-24" in to file Success.
+
+2018-09-24 12:37:20,988 INFO     OurEDA     > Save date-"2017-10-22" in to file Success.
+
+2018-09-24 12:37:20,988 INFO     OurEDA     > Save date-"2017-10-19" in to file Success.
+
+2018-09-24 12:37:20,988 INFO     OurEDA     > Save date-"2017-10-17" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-15" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-12" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-10" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-08" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-05" in to file Success.
+
+2018-09-24 12:37:20,989 INFO     OurEDA     > Save date-"2017-10-03" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-10-01" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-09-28" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-09-26" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-09-24" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-09-21" in to file Success.
+
+2018-09-24 12:37:20,990 INFO     OurEDA     > Save date-"2017-09-19" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-17" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-14" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-12" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-10" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-07" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-05" in to file Success.
+
+2018-09-24 12:37:20,991 INFO     OurEDA     > Save date-"2017-09-03" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-31" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-29" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-27" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-24" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-22" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-20" in to file Success.
+
+2018-09-24 12:37:20,992 INFO     OurEDA     > Save date-"2017-08-17" in to file Success.
+
+2018-09-24 12:37:20,993 INFO     OurEDA     > Save date-"2017-08-15" in to file Success.
+
+2018-09-24 12:37:20,993 INFO     OurEDA     > Save date-"2017-08-13" in to file Success.
+
+2018-09-24 12:37:20,993 INFO     OurEDA     > Save date-"2017-08-10" in to file Success.
+
+2018-09-24 12:37:20,993 INFO     OurEDA     > Save date-"2017-08-08" in to file Success.
+
+2018-09-24 12:37:20,993 INFO     OurEDA     > Save date-"2017-08-06" in to file Success.
+
+2018-09-24 12:37:20,994 INFO     OurEDA     > Save date-"2017-08-03" in to file Success.
+
+2018-09-24 12:37:20,994 INFO     OurEDA     > Save date-"2017-08-01" in to file Success.
+
+2018-09-24 12:37:20,994 INFO     OurEDA     > Save date-"2017-07-30" in to file Success.
+
+2018-09-24 12:37:20,994 INFO     OurEDA     > Save date-"2017-07-27" in to file Success.
+
+2018-09-24 12:37:20,994 INFO     OurEDA     > Save date-"2017-07-25" in to file Success.
+
+2018-09-24 12:37:20,995 INFO     OurEDA     > Save date-"2017-07-23" in to file Success.
+
+2018-09-24 12:37:20,995 INFO     OurEDA     > Save date-"2017-07-20" in to file Success.
+
+2018-09-24 12:37:20,995 INFO     OurEDA     > Save date-"2017-07-18" in to file Success.
+
+2018-09-24 12:37:20,995 INFO     OurEDA     > Save date-"2017-07-16" in to file Success.
+
+2018-09-24 12:37:20,995 INFO     OurEDA     > Save date-"2017-07-13" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-07-11" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-07-09" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-07-06" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-07-04" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-07-02" in to file Success.
+
+2018-09-24 12:37:20,996 INFO     OurEDA     > Save date-"2017-06-29" in to file Success.
+
+2018-09-24 12:37:20,997 INFO     OurEDA     > Save date-"2017-06-27" in to file Success.
+
+2018-09-24 12:37:20,997 INFO     OurEDA     > Save date-"2017-06-25" in to file Success.
+
+2018-09-24 12:37:20,997 INFO     OurEDA     > Save date-"2017-06-22" in to file Success.
+
+2018-09-24 12:37:20,997 INFO     OurEDA     > Save date-"2017-06-20" in to file Success.
+
+2018-09-24 12:37:20,997 INFO     OurEDA     > Save date-"2017-06-18" in to file Success.
+
+2018-09-24 12:37:20,998 INFO     OurEDA     > Save date-"2017-06-15" in to file Success.
+
+2018-09-24 12:37:20,998 INFO     OurEDA     > Save date-"2017-06-13" in to file Success.
+
+2018-09-24 12:37:20,998 INFO     OurEDA     > Save date-"2017-06-11" in to file Success.
+
+2018-09-24 12:37:20,998 INFO     OurEDA     > Save date-"2017-06-08" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-06-06" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-06-04" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-06-01" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-05-30" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-05-28" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-05-25" in to file Success.
+
+2018-09-24 12:37:20,999 INFO     OurEDA     > Save date-"2017-05-23" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-21" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-18" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-16" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-14" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-11" in to file Success.
+
+2018-09-24 12:37:21,000 INFO     OurEDA     > Save date-"2017-05-09" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-05-07" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-05-04" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-05-02" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-04-30" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-04-27" in to file Success.
+
+2018-09-24 12:37:21,001 INFO     OurEDA     > Save date-"2017-04-25" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-23" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-20" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-18" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-16" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-13" in to file Success.
+
+2018-09-24 12:37:21,002 INFO     OurEDA     > Save date-"2017-04-11" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-04-09" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-04-06" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-04-04" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-04-02" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-03-30" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-03-28" in to file Success.
+
+2018-09-24 12:37:21,003 INFO     OurEDA     > Save date-"2017-03-26" in to file Success.
+
+2018-09-24 12:37:21,004 INFO     OurEDA     > Save date-"2017-03-23" in to file Success.
+
+2018-09-24 12:37:21,004 INFO     OurEDA     > Save date-"2017-03-21" in to file Success.
+
+2018-09-24 12:37:21,004 INFO     OurEDA     > Save date-"2017-03-19" in to file Success.
+
+2018-09-24 12:37:21,004 INFO     OurEDA     > Save date-"2017-03-16" in to file Success.
+
+2018-09-24 12:37:21,004 INFO     OurEDA     > Save date-"2017-03-14" in to file Success.
+
+2018-09-24 12:37:21,005 INFO     OurEDA     > Save date-"2017-03-12" in to file Success.
+
+2018-09-24 12:37:21,005 INFO     OurEDA     > Save date-"2017-03-09" in to file Success.
+
+2018-09-24 12:37:21,005 INFO     OurEDA     > Save date-"2017-03-07" in to file Success.
+
+2018-09-24 12:37:21,005 INFO     OurEDA     > Save date-"2017-03-05" in to file Success.
+
+2018-09-24 12:37:21,005 INFO     OurEDA     > Save date-"2017-03-02" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-28" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-26" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-23" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-21" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-19" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-16" in to file Success.
+
+2018-09-24 12:37:21,006 INFO     OurEDA     > Save date-"2017-02-14" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-02-12" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-02-09" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-02-07" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-02-05" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-01-26" in to file Success.
+
+2018-09-24 12:37:21,007 INFO     OurEDA     > Save date-"2017-01-24" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-22" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-19" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-17" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-15" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-12" in to file Success.
+
+2018-09-24 12:37:21,008 INFO     OurEDA     > Save date-"2017-01-10" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2017-01-08" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2017-01-05" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2017-01-03" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2017-01-01" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2016-12-29" in to file Success.
+
+2018-09-24 12:37:21,009 INFO     OurEDA     > Save date-"2016-12-27" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-25" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-22" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-20" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-18" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-15" in to file Success.
+
+2018-09-24 12:37:21,010 INFO     OurEDA     > Save date-"2016-12-13" in to file Success.
+
+2018-09-24 12:37:21,011 INFO     OurEDA     > Save date-"2016-12-11" in to file Success.
+
+2018-09-24 12:37:21,011 INFO     OurEDA     > Save date-"2016-12-08" in to file Success.
+
+2018-09-24 12:37:21,011 INFO     OurEDA     > Save date-"2016-12-06" in to file Success.
+
+2018-09-24 12:37:21,011 INFO     OurEDA     > Save date-"2016-12-04" in to file Success.
+
+2018-09-24 12:37:21,011 INFO     OurEDA     > Save date-"2016-12-01" in to file Success.
+
+2018-09-24 12:37:21,012 INFO     OurEDA     > Save date-"2016-11-29" in to file Success.
+
+2018-09-24 12:37:21,012 INFO     OurEDA     > Save date-"2016-11-27" in to file Success.
+
+2018-09-24 12:37:21,012 INFO     OurEDA     > Save to excel ...
+

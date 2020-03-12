@@ -1,0 +1,744 @@
+2018-09-24 13:41:55,379 INFO     OurEDA     > Get the Urls success.
+
+2018-09-24 13:41:55,380 INFO     OurEDA     > Start Spider.
+
+2018-09-24 13:41:58,628 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=1".
+
+2018-09-24 13:41:59,556 INFO     OurEDA     > Get the item with name "奶爸的文艺人生" Success.
+
+2018-09-24 13:41:59,557 INFO     OurEDA     > Get the item with name "重生之财源滚滚" Success.
+
+2018-09-24 13:41:59,558 INFO     OurEDA     > Get the item with name "民国之文豪崛起" Success.
+
+2018-09-24 13:41:59,559 INFO     OurEDA     > Get the item with name "全能游戏设计师" Success.
+
+2018-09-24 13:41:59,560 INFO     OurEDA     > Get the item with name "逆流纯真年代" Success.
+
+2018-09-24 13:41:59,561 INFO     OurEDA     > Get the item with name "我的姐姐是大明星" Success.
+
+2018-09-24 13:41:59,562 INFO     OurEDA     > Get the item with name "大魏宫廷" Success.
+
+2018-09-24 13:41:59,563 INFO     OurEDA     > Get the item with name "斗破苍穹" Success.
+
+2018-09-24 13:41:59,564 INFO     OurEDA     > Get the item with name "修真四万年" Success.
+
+2018-09-24 13:41:59,565 INFO     OurEDA     > Get the item with name "异常生物见闻录" Success.
+
+2018-09-24 13:41:59,566 INFO     OurEDA     > Get the item with name "完美人生" Success.
+
+2018-09-24 13:41:59,567 INFO     OurEDA     > Get the item with name "变身路人女主" Success.
+
+2018-09-24 13:41:59,568 INFO     OurEDA     > Get the item with name "凡人修仙传" Success.
+
+2018-09-24 13:41:59,569 INFO     OurEDA     > Get the item with name "国际制造商" Success.
+
+2018-09-24 13:41:59,570 INFO     OurEDA     > Get the item with name "最佳影星" Success.
+
+2018-09-24 13:41:59,571 INFO     OurEDA     > Get the item with name "异世界的美食家" Success.
+
+2018-09-24 13:41:59,572 INFO     OurEDA     > Get the item with name "逍遥小书生" Success.
+
+2018-09-24 13:41:59,572 INFO     OurEDA     > Get the item with name "废土崛起" Success.
+
+2018-09-24 13:41:59,573 INFO     OurEDA     > Get the item with name "异世之召唤文臣猛将" Success.
+
+2018-09-24 13:41:59,574 INFO     OurEDA     > Get the item with name "我是杀毒软件" Success.
+
+2018-09-24 13:42:03,022 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=2".
+
+2018-09-24 13:42:04,274 INFO     OurEDA     > Get the item with name "巨星家族" Success.
+
+2018-09-24 13:42:04,275 INFO     OurEDA     > Get the item with name "随身带着星际争霸" Success.
+
+2018-09-24 13:42:04,276 INFO     OurEDA     > Get the item with name "主神大道" Success.
+
+2018-09-24 13:42:04,277 INFO     OurEDA     > Get the item with name "最强神话帝皇" Success.
+
+2018-09-24 13:42:04,279 INFO     OurEDA     > Get the item with name "疯狂神豪玩科技" Success.
+
+2018-09-24 13:42:04,280 INFO     OurEDA     > Get the item with name "神道丹尊" Success.
+
+2018-09-24 13:42:04,280 INFO     OurEDA     > Get the item with name "穿越诸天万界" Success.
+
+2018-09-24 13:42:04,281 INFO     OurEDA     > Get the item with name "都市最强装逼系统" Success.
+
+2018-09-24 13:42:04,282 INFO     OurEDA     > Get the item with name "位面之纨绔生涯" Success.
+
+2018-09-24 13:42:04,283 INFO     OurEDA     > Get the item with name "我不是大明星啊" Success.
+
+2018-09-24 13:42:04,284 INFO     OurEDA     > Get the item with name "斗罗大陆" Success.
+
+2018-09-24 13:42:04,285 INFO     OurEDA     > Get the item with name "宿主请留步" Success.
+
+2018-09-24 13:42:04,286 INFO     OurEDA     > Get the item with name "神奇牧场" Success.
+
+2018-09-24 13:42:04,287 INFO     OurEDA     > Get the item with name "唐朝小闲人" Success.
+
+2018-09-24 13:42:04,289 INFO     OurEDA     > Get the item with name "万界天尊" Success.
+
+2018-09-24 13:42:04,290 INFO     OurEDA     > Get the item with name "北宋最强大少爷" Success.
+
+2018-09-24 13:42:04,291 INFO     OurEDA     > Get the item with name "仙子饶命" Success.
+
+2018-09-24 13:42:04,292 INFO     OurEDA     > Get the item with name "超级金钱帝国" Success.
+
+2018-09-24 13:42:04,294 INFO     OurEDA     > Get the item with name "反套路快穿" Success.
+
+2018-09-24 13:42:04,295 INFO     OurEDA     > Get the item with name "闲臣风流" Success.
+
+2018-09-24 13:42:06,467 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=3".
+
+2018-09-24 13:42:07,413 INFO     OurEDA     > Get the item with name "晚清之乱臣贼子" Success.
+
+2018-09-24 13:42:07,415 INFO     OurEDA     > Get the item with name "武侠世界大穿越" Success.
+
+2018-09-24 13:42:07,415 INFO     OurEDA     > Get the item with name "仙域科技霸主" Success.
+
+2018-09-24 13:42:07,416 INFO     OurEDA     > Get the item with name "全职高手" Success.
+
+2018-09-24 13:42:07,417 INFO     OurEDA     > Get the item with name "心魔" Success.
+
+2018-09-24 13:42:07,419 INFO     OurEDA     > Get the item with name "小丑游戏" Success.
+
+2018-09-24 13:42:07,420 INFO     OurEDA     > Get the item with name "我的镀金时代" Success.
+
+2018-09-24 13:42:07,421 INFO     OurEDA     > Get the item with name "一拳超人之帝王引擎" Success.
+
+2018-09-24 13:42:07,422 INFO     OurEDA     > Get the item with name "昆仑有剑" Success.
+
+2018-09-24 13:42:07,423 INFO     OurEDA     > Get the item with name "唐朝最佳闲王" Success.
+
+2018-09-24 13:42:07,424 INFO     OurEDA     > Get the item with name "遮天" Success.
+
+2018-09-24 13:42:07,425 INFO     OurEDA     > Get the item with name "从笑星走向巨星" Success.
+
+2018-09-24 13:42:07,426 INFO     OurEDA     > Get the item with name "重回OMG战队" Success.
+
+2018-09-24 13:42:07,426 INFO     OurEDA     > Get the item with name "重生美国做灵媒" Success.
+
+2018-09-24 13:42:07,427 INFO     OurEDA     > Get the item with name "神豪无极限" Success.
+
+2018-09-24 13:42:07,428 INFO     OurEDA     > Get the item with name "抗战之后勤主任" Success.
+
+2018-09-24 13:42:07,429 INFO     OurEDA     > Get the item with name "最强弃少" Success.
+
+2018-09-24 13:42:07,430 INFO     OurEDA     > Get the item with name "灵魂导游" Success.
+
+2018-09-24 13:42:07,431 INFO     OurEDA     > Get the item with name "都市模拟人生" Success.
+
+2018-09-24 13:42:07,432 INFO     OurEDA     > Get the item with name "交锋" Success.
+
+2018-09-24 13:42:10,492 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=4".
+
+2018-09-24 13:42:11,243 INFO     OurEDA     > Get the item with name "惊悚乐园" Success.
+
+2018-09-24 13:42:11,244 INFO     OurEDA     > Get the item with name "绝对交易" Success.
+
+2018-09-24 13:42:11,245 INFO     OurEDA     > Get the item with name "当个法师闹革命" Success.
+
+2018-09-24 13:42:11,246 INFO     OurEDA     > Get the item with name "完美世界" Success.
+
+2018-09-24 13:42:11,247 INFO     OurEDA     > Get the item with name "我是大科学家" Success.
+
+2018-09-24 13:42:11,248 INFO     OurEDA     > Get the item with name "纵猎天下" Success.
+
+2018-09-24 13:42:11,249 INFO     OurEDA     > Get the item with name "巫师世界的战士" Success.
+
+2018-09-24 13:42:11,250 INFO     OurEDA     > Get the item with name "欢迎来到BOSS队" Success.
+
+2018-09-24 13:42:11,251 INFO     OurEDA     > Get the item with name "召唤万岁" Success.
+
+2018-09-24 13:42:11,252 INFO     OurEDA     > Get the item with name "抗战之第十班" Success.
+
+2018-09-24 13:42:11,253 INFO     OurEDA     > Get the item with name "唐砖" Success.
+
+2018-09-24 13:42:11,254 INFO     OurEDA     > Get the item with name "重生之神级学霸" Success.
+
+2018-09-24 13:42:11,255 INFO     OurEDA     > Get the item with name "仙逆" Success.
+
+2018-09-24 13:42:11,256 INFO     OurEDA     > Get the item with name "木叶之实力至上" Success.
+
+2018-09-24 13:42:11,257 INFO     OurEDA     > Get the item with name "游戏王之假卡王" Success.
+
+2018-09-24 13:42:11,257 INFO     OurEDA     > Get the item with name "两界搬运工" Success.
+
+2018-09-24 13:42:11,259 INFO     OurEDA     > Get the item with name "重生之逆战西游" Success.
+
+2018-09-24 13:42:11,260 INFO     OurEDA     > Get the item with name "彪悍的人生" Success.
+
+2018-09-24 13:42:11,261 INFO     OurEDA     > Get the item with name "大文豪" Success.
+
+2018-09-24 13:42:11,262 INFO     OurEDA     > Get the item with name "拔魔" Success.
+
+2018-09-24 13:42:13,710 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=5".
+
+2018-09-24 13:42:14,484 INFO     OurEDA     > Get the item with name "史上最强师兄" Success.
+
+2018-09-24 13:42:14,485 INFO     OurEDA     > Get the item with name "学霸的科技帝国" Success.
+
+2018-09-24 13:42:14,486 INFO     OurEDA     > Get the item with name "食戟之冒牌小当家" Success.
+
+2018-09-24 13:42:14,487 INFO     OurEDA     > Get the item with name "高危职业" Success.
+
+2018-09-24 13:42:14,488 INFO     OurEDA     > Get the item with name "火影之最强震遁" Success.
+
+2018-09-24 13:42:14,490 INFO     OurEDA     > Get the item with name "大主宰" Success.
+
+2018-09-24 13:42:14,491 INFO     OurEDA     > Get the item with name "次元马甲系统" Success.
+
+2018-09-24 13:42:14,492 INFO     OurEDA     > Get the item with name "跑出我人生" Success.
+
+2018-09-24 13:42:14,493 INFO     OurEDA     > Get the item with name "我不想当球王" Success.
+
+2018-09-24 13:42:14,494 INFO     OurEDA     > Get the item with name "奥特曼战记" Success.
+
+2018-09-24 13:42:14,494 INFO     OurEDA     > Get the item with name "无限武侠江湖行" Success.
+
+2018-09-24 13:42:14,495 INFO     OurEDA     > Get the item with name "吞噬星空" Success.
+
+2018-09-24 13:42:14,496 INFO     OurEDA     > Get the item with name "法师亚当" Success.
+
+2018-09-24 13:42:14,497 INFO     OurEDA     > Get the item with name "我的无限战舰" Success.
+
+2018-09-24 13:42:14,498 INFO     OurEDA     > Get the item with name "网游之无敌盗贼" Success.
+
+2018-09-24 13:42:14,499 INFO     OurEDA     > Get the item with name "梦想为王" Success.
+
+2018-09-24 13:42:14,500 INFO     OurEDA     > Get the item with name "球场教父" Success.
+
+2018-09-24 13:42:14,500 INFO     OurEDA     > Get the item with name "读书成圣" Success.
+
+2018-09-24 13:42:14,502 INFO     OurEDA     > Get the item with name "蜀汉的复兴" Success.
+
+2018-09-24 13:42:14,503 INFO     OurEDA     > Get the item with name "体坛之篮球教父" Success.
+
+2018-09-24 13:42:16,514 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=6".
+
+2018-09-24 13:42:17,666 INFO     OurEDA     > Get the item with name "史上最牛道长" Success.
+
+2018-09-24 13:42:17,668 INFO     OurEDA     > Get the item with name "将夜" Success.
+
+2018-09-24 13:42:17,668 INFO     OurEDA     > Get the item with name "大宋将门" Success.
+
+2018-09-24 13:42:17,669 INFO     OurEDA     > Get the item with name "篮坛活菩萨" Success.
+
+2018-09-24 13:42:17,670 INFO     OurEDA     > Get the item with name "重活一次" Success.
+
+2018-09-24 13:42:17,671 INFO     OurEDA     > Get the item with name "佣兵的战争" Success.
+
+2018-09-24 13:42:17,672 INFO     OurEDA     > Get the item with name "莽荒纪" Success.
+
+2018-09-24 13:42:17,673 INFO     OurEDA     > Get the item with name "深空之下" Success.
+
+2018-09-24 13:42:17,674 INFO     OurEDA     > Get the item with name "奋斗1981" Success.
+
+2018-09-24 13:42:17,676 INFO     OurEDA     > Get the item with name "最终浩劫" Success.
+
+2018-09-24 13:42:17,677 INFO     OurEDA     > Get the item with name "法神直播间" Success.
+
+2018-09-24 13:42:17,679 INFO     OurEDA     > Get the item with name "神门" Success.
+
+2018-09-24 13:42:17,680 INFO     OurEDA     > Get the item with name "星祖的电影世界" Success.
+
+2018-09-24 13:42:17,681 INFO     OurEDA     > Get the item with name "狼烟起" Success.
+
+2018-09-24 13:42:17,682 INFO     OurEDA     > Get the item with name "大枭雄系统" Success.
+
+2018-09-24 13:42:17,683 INFO     OurEDA     > Get the item with name "重生过去当神厨" Success.
+
+2018-09-24 13:42:17,684 INFO     OurEDA     > Get the item with name "超级电力强国" Success.
+
+2018-09-24 13:42:17,685 INFO     OurEDA     > Get the item with name "变身之萝莉主播" Success.
+
+2018-09-24 13:42:17,686 INFO     OurEDA     > Get the item with name "庆余年" Success.
+
+2018-09-24 13:42:17,687 INFO     OurEDA     > Get the item with name "逍遥小地主" Success.
+
+2018-09-24 13:42:19,852 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=7".
+
+2018-09-24 13:42:20,643 INFO     OurEDA     > Get the item with name "洪荒之冥河问道" Success.
+
+2018-09-24 13:42:20,644 INFO     OurEDA     > Get the item with name "最终猎杀" Success.
+
+2018-09-24 13:42:20,645 INFO     OurEDA     > Get the item with name "武动乾坤" Success.
+
+2018-09-24 13:42:20,645 INFO     OurEDA     > Get the item with name "求魔" Success.
+
+2018-09-24 13:42:20,646 INFO     OurEDA     > Get the item with name "完美机甲剑神" Success.
+
+2018-09-24 13:42:20,647 INFO     OurEDA     > Get the item with name "变身骑士小姐" Success.
+
+2018-09-24 13:42:20,648 INFO     OurEDA     > Get the item with name "英雄联盟：上帝之手" Success.
+
+2018-09-24 13:42:20,649 INFO     OurEDA     > Get the item with name "重生在神话世界" Success.
+
+2018-09-24 13:42:20,650 INFO     OurEDA     > Get the item with name "抗战海军连" Success.
+
+2018-09-24 13:42:20,651 INFO     OurEDA     > Get the item with name "龙珠之超级宗师" Success.
+
+2018-09-24 13:42:20,652 INFO     OurEDA     > Get the item with name "重生在70年代" Success.
+
+2018-09-24 13:42:20,652 INFO     OurEDA     > Get the item with name "最强特种兵王" Success.
+
+2018-09-24 13:42:20,653 INFO     OurEDA     > Get the item with name "官居一品" Success.
+
+2018-09-24 13:42:20,654 INFO     OurEDA     > Get the item with name "聊斋大圣人" Success.
+
+2018-09-24 13:42:20,655 INFO     OurEDA     > Get the item with name "超级传奇巨星" Success.
+
+2018-09-24 13:42:20,656 INFO     OurEDA     > Get the item with name "调戏文娱" Success.
+
+2018-09-24 13:42:20,657 INFO     OurEDA     > Get the item with name "盘龙" Success.
+
+2018-09-24 13:42:20,659 INFO     OurEDA     > Get the item with name "武极天下" Success.
+
+2018-09-24 13:42:20,660 INFO     OurEDA     > Get the item with name "飞天" Success.
+
+2018-09-24 13:42:20,661 INFO     OurEDA     > Get the item with name "诸天仙武" Success.
+
+2018-09-24 13:42:24,565 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=8".
+
+2018-09-24 13:42:25,463 INFO     OurEDA     > Get the item with name "脑洞大爆炸" Success.
+
+2018-09-24 13:42:25,464 INFO     OurEDA     > Get the item with name "影视会员大穿越" Success.
+
+2018-09-24 13:42:25,464 INFO     OurEDA     > Get the item with name "黄金瞳" Success.
+
+2018-09-24 13:42:25,466 INFO     OurEDA     > Get the item with name "星辰变" Success.
+
+2018-09-24 13:42:25,467 INFO     OurEDA     > Get the item with name "一拳之最强英雄" Success.
+
+2018-09-24 13:42:25,468 INFO     OurEDA     > Get the item with name "人道至尊" Success.
+
+2018-09-24 13:42:25,469 INFO     OurEDA     > Get the item with name "异世邪君" Success.
+
+2018-09-24 13:42:25,470 INFO     OurEDA     > Get the item with name "神墓" Success.
+
+2018-09-24 13:42:25,471 INFO     OurEDA     > Get the item with name "冥主" Success.
+
+2018-09-24 13:42:25,473 INFO     OurEDA     > Get the item with name "在仙界当漫画家" Success.
+
+2018-09-24 13:42:25,474 INFO     OurEDA     > Get the item with name "武神空间" Success.
+
+2018-09-24 13:42:25,474 INFO     OurEDA     > Get the item with name "无限十万年" Success.
+
+2018-09-24 13:42:25,475 INFO     OurEDA     > Get the item with name "大唐风华路" Success.
+
+2018-09-24 13:42:25,476 INFO     OurEDA     > Get the item with name "偷盗万界" Success.
+
+2018-09-24 13:42:25,477 INFO     OurEDA     > Get the item with name "网游之近战法师" Success.
+
+2018-09-24 13:42:25,478 INFO     OurEDA     > Get the item with name "一世之尊" Success.
+
+2018-09-24 13:42:25,479 INFO     OurEDA     > Get the item with name "无限福利神豪" Success.
+
+2018-09-24 13:42:25,479 INFO     OurEDA     > Get the item with name "重活之逍遥大明星" Success.
+
+2018-09-24 13:42:25,480 INFO     OurEDA     > Get the item with name "未来宠物店" Success.
+
+2018-09-24 13:42:25,481 INFO     OurEDA     > Get the item with name "宠物小精灵之黑暗巨头" Success.
+
+2018-09-24 13:42:28,148 INFO     OurEDA     > Back url Success, Url is "https://www.qidian.com/all?action=1&orderId=&page=9".
+
+2018-09-24 13:42:28,993 INFO     OurEDA     > Get the item with name "逆流2002" Success.
+
+2018-09-24 13:42:28,994 INFO     OurEDA     > Get the item with name "唐朝好舅子" Success.
+
+2018-09-24 13:42:28,995 INFO     OurEDA     > Get the item with name "大宋的智慧" Success.
+
+2018-09-24 13:42:28,996 INFO     OurEDA     > Get the item with name "武神" Success.
+
+2018-09-24 13:42:28,997 INFO     OurEDA     > Get the item with name "掠天记" Success.
+
+2018-09-24 13:42:28,998 INFO     OurEDA     > Get the item with name "艾泽拉斯游侠之王" Success.
+
+2018-09-24 13:42:28,999 INFO     OurEDA     > Get the item with name "全职业训练师" Success.
+
+2018-09-24 13:42:29,000 INFO     OurEDA     > Get the item with name "夜天子" Success.
+
+2018-09-24 13:42:29,001 INFO     OurEDA     > Get the item with name "娱乐大顽家" Success.
+
+2018-09-24 13:42:29,002 INFO     OurEDA     > Get the item with name "奥术神座" Success.
+
+2018-09-24 13:42:29,003 INFO     OurEDA     > Get the item with name "狂武战帝" Success.
+
+2018-09-24 13:42:29,004 INFO     OurEDA     > Get the item with name "寇道" Success.
+
+2018-09-24 13:42:29,005 INFO     OurEDA     > Get the item with name "变身病弱科技少女" Success.
+
+2018-09-24 13:42:29,005 INFO     OurEDA     > Get the item with name "万界淘宝商" Success.
+
+2018-09-24 13:42:29,006 INFO     OurEDA     > Get the item with name "真科技无双" Success.
+
+2018-09-24 13:42:29,007 INFO     OurEDA     > Get the item with name "NBA万界商城" Success.
+
+2018-09-24 13:42:29,008 INFO     OurEDA     > Get the item with name "星武通神" Success.
+
+2018-09-24 13:42:29,009 INFO     OurEDA     > Get the item with name "火影之远途" Success.
+
+2018-09-24 13:42:29,010 INFO     OurEDA     > Get the item with name "无悔九二" Success.
+
+2018-09-24 13:42:29,011 INFO     OurEDA     > Get the item with name "兵锋王座" Success.
+
+2018-09-24 13:42:29,012 INFO     OurEDA     > Start Pipelines.
+
+2018-09-24 13:42:29,012 INFO     OurEDA     > Save "奶爸的文艺人生" in to file Success.
+
+2018-09-24 13:42:29,012 INFO     OurEDA     > Save "重生之财源滚滚" in to file Success.
+
+2018-09-24 13:42:29,012 INFO     OurEDA     > Save "民国之文豪崛起" in to file Success.
+
+2018-09-24 13:42:29,013 INFO     OurEDA     > Save "全能游戏设计师" in to file Success.
+
+2018-09-24 13:42:29,013 INFO     OurEDA     > Save "逆流纯真年代" in to file Success.
+
+2018-09-24 13:42:29,013 INFO     OurEDA     > Save "我的姐姐是大明星" in to file Success.
+
+2018-09-24 13:42:29,013 INFO     OurEDA     > Save "大魏宫廷" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "斗破苍穹" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "修真四万年" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "异常生物见闻录" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "完美人生" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "变身路人女主" in to file Success.
+
+2018-09-24 13:42:29,014 INFO     OurEDA     > Save "凡人修仙传" in to file Success.
+
+2018-09-24 13:42:29,015 INFO     OurEDA     > Save "国际制造商" in to file Success.
+
+2018-09-24 13:42:29,015 INFO     OurEDA     > Save "最佳影星" in to file Success.
+
+2018-09-24 13:42:29,015 INFO     OurEDA     > Save "异世界的美食家" in to file Success.
+
+2018-09-24 13:42:29,015 INFO     OurEDA     > Save "逍遥小书生" in to file Success.
+
+2018-09-24 13:42:29,016 INFO     OurEDA     > Save "废土崛起" in to file Success.
+
+2018-09-24 13:42:29,016 INFO     OurEDA     > Save "异世之召唤文臣猛将" in to file Success.
+
+2018-09-24 13:42:29,016 INFO     OurEDA     > Save "我是杀毒软件" in to file Success.
+
+2018-09-24 13:42:29,016 INFO     OurEDA     > Save "巨星家族" in to file Success.
+
+2018-09-24 13:42:29,016 INFO     OurEDA     > Save "随身带着星际争霸" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "主神大道" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "最强神话帝皇" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "疯狂神豪玩科技" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "神道丹尊" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "穿越诸天万界" in to file Success.
+
+2018-09-24 13:42:29,017 INFO     OurEDA     > Save "都市最强装逼系统" in to file Success.
+
+2018-09-24 13:42:29,018 INFO     OurEDA     > Save "位面之纨绔生涯" in to file Success.
+
+2018-09-24 13:42:29,018 INFO     OurEDA     > Save "我不是大明星啊" in to file Success.
+
+2018-09-24 13:42:29,018 INFO     OurEDA     > Save "斗罗大陆" in to file Success.
+
+2018-09-24 13:42:29,018 INFO     OurEDA     > Save "宿主请留步" in to file Success.
+
+2018-09-24 13:42:29,018 INFO     OurEDA     > Save "神奇牧场" in to file Success.
+
+2018-09-24 13:42:29,019 INFO     OurEDA     > Save "唐朝小闲人" in to file Success.
+
+2018-09-24 13:42:29,019 INFO     OurEDA     > Save "万界天尊" in to file Success.
+
+2018-09-24 13:42:29,019 INFO     OurEDA     > Save "北宋最强大少爷" in to file Success.
+
+2018-09-24 13:42:29,019 INFO     OurEDA     > Save "仙子饶命" in to file Success.
+
+2018-09-24 13:42:29,019 INFO     OurEDA     > Save "超级金钱帝国" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "反套路快穿" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "闲臣风流" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "晚清之乱臣贼子" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "武侠世界大穿越" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "仙域科技霸主" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "全职高手" in to file Success.
+
+2018-09-24 13:42:29,020 INFO     OurEDA     > Save "心魔" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "小丑游戏" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "我的镀金时代" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "一拳超人之帝王引擎" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "昆仑有剑" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "唐朝最佳闲王" in to file Success.
+
+2018-09-24 13:42:29,021 INFO     OurEDA     > Save "遮天" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "从笑星走向巨星" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "重回OMG战队" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "重生美国做灵媒" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "神豪无极限" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "抗战之后勤主任" in to file Success.
+
+2018-09-24 13:42:29,022 INFO     OurEDA     > Save "最强弃少" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "灵魂导游" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "都市模拟人生" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "交锋" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "惊悚乐园" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "绝对交易" in to file Success.
+
+2018-09-24 13:42:29,023 INFO     OurEDA     > Save "当个法师闹革命" in to file Success.
+
+2018-09-24 13:42:29,024 INFO     OurEDA     > Save "完美世界" in to file Success.
+
+2018-09-24 13:42:29,024 INFO     OurEDA     > Save "我是大科学家" in to file Success.
+
+2018-09-24 13:42:29,024 INFO     OurEDA     > Save "纵猎天下" in to file Success.
+
+2018-09-24 13:42:29,024 INFO     OurEDA     > Save "巫师世界的战士" in to file Success.
+
+2018-09-24 13:42:29,024 INFO     OurEDA     > Save "欢迎来到BOSS队" in to file Success.
+
+2018-09-24 13:42:29,025 INFO     OurEDA     > Save "召唤万岁" in to file Success.
+
+2018-09-24 13:42:29,025 INFO     OurEDA     > Save "抗战之第十班" in to file Success.
+
+2018-09-24 13:42:29,025 INFO     OurEDA     > Save "唐砖" in to file Success.
+
+2018-09-24 13:42:29,025 INFO     OurEDA     > Save "重生之神级学霸" in to file Success.
+
+2018-09-24 13:42:29,025 INFO     OurEDA     > Save "仙逆" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "木叶之实力至上" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "游戏王之假卡王" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "两界搬运工" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "重生之逆战西游" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "彪悍的人生" in to file Success.
+
+2018-09-24 13:42:29,026 INFO     OurEDA     > Save "大文豪" in to file Success.
+
+2018-09-24 13:42:29,027 INFO     OurEDA     > Save "拔魔" in to file Success.
+
+2018-09-24 13:42:29,027 INFO     OurEDA     > Save "史上最强师兄" in to file Success.
+
+2018-09-24 13:42:29,027 INFO     OurEDA     > Save "学霸的科技帝国" in to file Success.
+
+2018-09-24 13:42:29,027 INFO     OurEDA     > Save "食戟之冒牌小当家" in to file Success.
+
+2018-09-24 13:42:29,027 INFO     OurEDA     > Save "高危职业" in to file Success.
+
+2018-09-24 13:42:29,028 INFO     OurEDA     > Save "火影之最强震遁" in to file Success.
+
+2018-09-24 13:42:29,028 INFO     OurEDA     > Save "大主宰" in to file Success.
+
+2018-09-24 13:42:29,028 INFO     OurEDA     > Save "次元马甲系统" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "跑出我人生" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "我不想当球王" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "奥特曼战记" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "无限武侠江湖行" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "吞噬星空" in to file Success.
+
+2018-09-24 13:42:29,029 INFO     OurEDA     > Save "法师亚当" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "我的无限战舰" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "网游之无敌盗贼" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "梦想为王" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "球场教父" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "读书成圣" in to file Success.
+
+2018-09-24 13:42:29,030 INFO     OurEDA     > Save "蜀汉的复兴" in to file Success.
+
+2018-09-24 13:42:29,031 INFO     OurEDA     > Save "体坛之篮球教父" in to file Success.
+
+2018-09-24 13:42:29,031 INFO     OurEDA     > Save "史上最牛道长" in to file Success.
+
+2018-09-24 13:42:29,031 INFO     OurEDA     > Save "将夜" in to file Success.
+
+2018-09-24 13:42:29,031 INFO     OurEDA     > Save "大宋将门" in to file Success.
+
+2018-09-24 13:42:29,032 INFO     OurEDA     > Save "篮坛活菩萨" in to file Success.
+
+2018-09-24 13:42:29,032 INFO     OurEDA     > Save "重活一次" in to file Success.
+
+2018-09-24 13:42:29,032 INFO     OurEDA     > Save "佣兵的战争" in to file Success.
+
+2018-09-24 13:42:29,032 INFO     OurEDA     > Save "莽荒纪" in to file Success.
+
+2018-09-24 13:42:29,033 INFO     OurEDA     > Save "深空之下" in to file Success.
+
+2018-09-24 13:42:29,033 INFO     OurEDA     > Save "奋斗1981" in to file Success.
+
+2018-09-24 13:42:29,033 INFO     OurEDA     > Save "最终浩劫" in to file Success.
+
+2018-09-24 13:42:29,033 INFO     OurEDA     > Save "法神直播间" in to file Success.
+
+2018-09-24 13:42:29,033 INFO     OurEDA     > Save "神门" in to file Success.
+
+2018-09-24 13:42:29,034 INFO     OurEDA     > Save "星祖的电影世界" in to file Success.
+
+2018-09-24 13:42:29,034 INFO     OurEDA     > Save "狼烟起" in to file Success.
+
+2018-09-24 13:42:29,034 INFO     OurEDA     > Save "大枭雄系统" in to file Success.
+
+2018-09-24 13:42:29,034 INFO     OurEDA     > Save "重生过去当神厨" in to file Success.
+
+2018-09-24 13:42:29,035 INFO     OurEDA     > Save "超级电力强国" in to file Success.
+
+2018-09-24 13:42:29,035 INFO     OurEDA     > Save "变身之萝莉主播" in to file Success.
+
+2018-09-24 13:42:29,035 INFO     OurEDA     > Save "庆余年" in to file Success.
+
+2018-09-24 13:42:29,035 INFO     OurEDA     > Save "逍遥小地主" in to file Success.
+
+2018-09-24 13:42:29,035 INFO     OurEDA     > Save "洪荒之冥河问道" in to file Success.
+
+2018-09-24 13:42:29,036 INFO     OurEDA     > Save "最终猎杀" in to file Success.
+
+2018-09-24 13:42:29,036 INFO     OurEDA     > Save "武动乾坤" in to file Success.
+
+2018-09-24 13:42:29,036 INFO     OurEDA     > Save "求魔" in to file Success.
+
+2018-09-24 13:42:29,036 INFO     OurEDA     > Save "完美机甲剑神" in to file Success.
+
+2018-09-24 13:42:29,037 INFO     OurEDA     > Save "变身骑士小姐" in to file Success.
+
+2018-09-24 13:42:29,037 INFO     OurEDA     > Save "英雄联盟：上帝之手" in to file Success.
+
+2018-09-24 13:42:29,037 INFO     OurEDA     > Save "重生在神话世界" in to file Success.
+
+2018-09-24 13:42:29,037 INFO     OurEDA     > Save "抗战海军连" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "龙珠之超级宗师" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "重生在70年代" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "最强特种兵王" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "官居一品" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "聊斋大圣人" in to file Success.
+
+2018-09-24 13:42:29,038 INFO     OurEDA     > Save "超级传奇巨星" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "调戏文娱" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "盘龙" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "武极天下" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "飞天" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "诸天仙武" in to file Success.
+
+2018-09-24 13:42:29,039 INFO     OurEDA     > Save "脑洞大爆炸" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "影视会员大穿越" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "黄金瞳" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "星辰变" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "一拳之最强英雄" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "人道至尊" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "异世邪君" in to file Success.
+
+2018-09-24 13:42:29,040 INFO     OurEDA     > Save "神墓" in to file Success.
+
+2018-09-24 13:42:29,041 INFO     OurEDA     > Save "冥主" in to file Success.
+
+2018-09-24 13:42:29,041 INFO     OurEDA     > Save "在仙界当漫画家" in to file Success.
+
+2018-09-24 13:42:29,041 INFO     OurEDA     > Save "武神空间" in to file Success.
+
+2018-09-24 13:42:29,041 INFO     OurEDA     > Save "无限十万年" in to file Success.
+
+2018-09-24 13:42:29,041 INFO     OurEDA     > Save "大唐风华路" in to file Success.
+
+2018-09-24 13:42:29,042 INFO     OurEDA     > Save "偷盗万界" in to file Success.
+
+2018-09-24 13:42:29,042 INFO     OurEDA     > Save "网游之近战法师" in to file Success.
+
+2018-09-24 13:42:29,042 INFO     OurEDA     > Save "一世之尊" in to file Success.
+
+2018-09-24 13:42:29,042 INFO     OurEDA     > Save "无限福利神豪" in to file Success.
+
+2018-09-24 13:42:29,042 INFO     OurEDA     > Save "重活之逍遥大明星" in to file Success.
+
+2018-09-24 13:42:29,043 INFO     OurEDA     > Save "未来宠物店" in to file Success.
+
+2018-09-24 13:42:29,043 INFO     OurEDA     > Save "宠物小精灵之黑暗巨头" in to file Success.
+
+2018-09-24 13:42:29,043 INFO     OurEDA     > Save "逆流2002" in to file Success.
+
+2018-09-24 13:42:29,043 INFO     OurEDA     > Save "唐朝好舅子" in to file Success.
+
+2018-09-24 13:42:29,043 INFO     OurEDA     > Save "大宋的智慧" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "武神" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "掠天记" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "艾泽拉斯游侠之王" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "全职业训练师" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "夜天子" in to file Success.
+
+2018-09-24 13:42:29,044 INFO     OurEDA     > Save "娱乐大顽家" in to file Success.
+
+2018-09-24 13:42:29,045 INFO     OurEDA     > Save "奥术神座" in to file Success.
+
+2018-09-24 13:42:29,045 INFO     OurEDA     > Save "狂武战帝" in to file Success.
+
+2018-09-24 13:42:29,045 INFO     OurEDA     > Save "寇道" in to file Success.
+
+2018-09-24 13:42:29,045 INFO     OurEDA     > Save "变身病弱科技少女" in to file Success.
+
+2018-09-24 13:42:29,045 INFO     OurEDA     > Save "万界淘宝商" in to file Success.
+
+2018-09-24 13:42:29,046 INFO     OurEDA     > Save "真科技无双" in to file Success.
+
+2018-09-24 13:42:29,046 INFO     OurEDA     > Save "NBA万界商城" in to file Success.
+
+2018-09-24 13:42:29,046 INFO     OurEDA     > Save "星武通神" in to file Success.
+
+2018-09-24 13:42:29,046 INFO     OurEDA     > Save "火影之远途" in to file Success.
+
+2018-09-24 13:42:29,046 INFO     OurEDA     > Save "无悔九二" in to file Success.
+
+2018-09-24 13:42:29,047 INFO     OurEDA     > Save "兵锋王座" in to file Success.
+

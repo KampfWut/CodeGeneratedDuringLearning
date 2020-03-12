@@ -1,0 +1,3 @@
+2018-09-21 10:55:55,861 : root       - WARNING  - warning message
+2018-09-21 10:55:55,861 : root       - ERROR    - error message
+2018-09-21 10:55:55,861 : root       - CRITICAL - critical message

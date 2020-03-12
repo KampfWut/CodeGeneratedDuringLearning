@@ -1,0 +1,154 @@
+GetProxyProject_09 buildinglog
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:Python Internet Worm OurEDA$ scrapy startproject GetProxyProject_09
+< New Scrapy project 'GetProxyProject_09', using template directory '/Users/OurEDA/anaconda3/lib/python3.6/site-packages/scrapy/templates/project', created in:
+      /Users/OurEDA/learing/Python Internet Worm/GetProxyProject_09
+  You can start your first spider with:
+      cd GetProxyProject_09
+      scrapy genspider example example.com
+> 172-6-2-26:Python Internet Worm OurEDA$ cd GetProxyProject_09/
+> 172-6-2-26:GetProxyProject_09 OurEDA$ scrapy genspider proxySpider  www.xicidaili.com
+< Created spider 'proxySpider' using template 'basic' in module:
+    GetProxyProject_09.spiders.proxySpider
+
+--------------------------------------------------------------
+****In items.py: select which item need get
+
+    import scrapy
+    class Getproxyproject09Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+        ip = scrapy.Field()
+        port = scrapy.Field()
+        location = scrapy.Field()
+        iptype = scrapy.Field()
+        protocol = scrapy.Field()
+        alivetime = scrapy.Field()
+        checktime = scrapy.Field()
+
+--------------------------------------------------------------
+****In CMD: Test
+
+> 172-6-2-26:GetProxyProject_09 OurEDA$ scrapy shell http://www.xicidaili.com/nn
+<
+2018-09-22 19:38:30 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: GetProxyProject_09)
+2018-09-22 19:38:30 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-14.5.0-x86_64-i386-64bit
+2018-09-22 19:38:30 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'GetProxyProject_09', 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'LOGSTATS_INTERVAL': 0, 'NEWSPIDER_MODULE': 'GetProxyProject_09.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['GetProxyProject_09.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.22 Safari/537.36'}
+2018-09-22 19:38:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-09-22 19:38:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-22 19:38:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-22 19:38:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-09-22 19:38:30 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-09-22 19:38:30 [scrapy.core.engine] INFO: Spider opened
+2018-09-22 19:38:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/robots.txt> (referer: None)
+2018-09-22 19:38:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/nn> (referer: None)
+[s] Available Scrapy objects:
+[s]   scrapy     scrapy module (contains scrapy.Request, scrapy.Selector, etc)
+[s]   crawler    <scrapy.crawler.Crawler object at 0x10f07aa90>
+[s]   item       {}
+[s]   request    <GET http://www.xicidaili.com/nn>
+[s]   response   <200 http://www.xicidaili.com/nn>
+[s]   settings   <scrapy.settings.Settings object at 0x10f07a780>
+[s]   spider     <ProxyspiderSpider 'proxySpider' at 0x10fd0ffd0>
+[s] Useful shortcuts:
+[s]   fetch(url[, redirect=True]) Fetch URL and update local objects (by default, redirects are followed)
+[s]   fetch(req)                  Fetch a scrapy.Request and update local objects 
+[s]   shelp()           Shell help (print this help)
+[s]   view(response)    View response in a browser
+In [1]: 
+
+--------------------------------------------------------------
+****In proxySpider.py: define how to get
+
+import scrapy
+from GetProxyProject_09.items import Getproxyproject09Item
+
+class ProxyspiderSpider(scrapy.Spider):
+    name = 'proxySpider'
+    allowed_domains = ['www.xicidaili.com']
+    start_urls = []
+    ipt = ["nn/", "nt/"]
+    for item in ipt:
+        for i in range(1, 5):
+            start_urls.append('http://www.xicidaili.com/' + item + str(i))
+
+    def parse(self, response):
+        subSelector = response.xpath('//tr')
+        items = []
+        for sub in subSelector:
+            item = Getproxyproject09Item()
+            item["ip"] = sub.xpath('.//td[2]//text()').extract()
+            item["port"] = sub.xpath('.//td[3]//text()').extract()
+            if sub.xpath('.//td[4]/a//text()'):
+                item["location"] = sub.xpath('.//td[4]/a//text()').extract()
+            else:
+                item["location"] = sub.xpath('.//td[4]//text()').extract()
+            item["iptype"] = sub.xpath('.//td[5]//text()').extract()
+            item["protocol"] = sub.xpath('.//td[6]//text()').extract()
+            item["alivetime"] = sub.xpath('.//td[9]//text()').extract()
+            item["checktime"] = sub.xpath('.//td[10]//text()').extract()
+            items.append(item)
+        return items
+
+--------------------------------------------------------------
+**** In pipelines.py: define how to save
+
+class Getproxyproject09Pipeline(object):
+    def process_item(self, item, spider):
+        fileName = "09_proxy.txt"
+
+        f1 = open(fileName, "a")
+        f1.write("{:s}\t".format(item["ip"][0].strip()))
+        f1.write("{:s}\t".format(item["port"][0].strip()))
+        f1.write("{:s}\t".format(item["location"][0].strip()))
+        f1.write("{:s}\t".format(item["iptype"][0].strip()))
+        f1.write("{:s}\t".format(item["protocol"][0].strip()))
+        f1.write("{:s}\t".format(item["alivetime"][0].strip()))
+        f1.write("{:s}\t".format(item["checktime"][0].strip()))
+        f1.write("\n")
+        f1.close()
+
+        f2 = open("use_proxy.txt", "a")
+        f2.write("\"{}:{}:{}\",\n".format(item["ip"][0].strip(), item["port"][0].strip(), item["protocol"][0].strip().lower()))
+        f2.close()
+
+        return item
+
+--------------------------------------------------------------
+**** In settings.py : start mission
+
+BOT_NAME = 'GetProxyProject_09'
+SPIDER_MODULES = ['GetProxyProject_09.spiders']
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.22 Safari/537.36'
+ROBOTSTXT_OBEY = True
+ITEM_PIPELINES = {
+    'GetProxyProject_09.pipelines.Getproxyproject09Pipeline': 300,
+}
+
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:GetProxyProject_09 OurEDA$ scrapy crawl proxySpider

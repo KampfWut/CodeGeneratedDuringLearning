@@ -1,0 +1,239 @@
+WeatherProject_08 buildinglog
+--------------------------------------------------------------
+****In CMD:
+
+> 172-6-2-26:MovieProject_07 OurEDA$ cd ..
+> 172-6-2-26:Python Internet Worm OurEDA$ scrapy startproject WeatherProject_08
+< New Scrapy project 'WeatherProject_08', using template directory '/Users/OurEDA/anaconda3/lib/python3.6/site-packages/scrapy/templates/project', created in:
+      /Users/OurEDA/learing/Python Internet Worm/WeatherProject_08
+
+  You can start your first spider with:
+      cd WeatherProject_08
+      scrapy genspider example example.com
+> 172-6-2-26:Python Internet Worm OurEDA$ cd WeatherProject_08/
+> 172-6-2-26:WeatherProject_08 OurEDA$ scrapy genspider daLianSpider www.tianqi.com/dalian
+< Created spider 'daLianSpider' using template 'basic' in module:
+    WeatherProject_08.spiders.daLianSpider
+
+--------------------------------------------------------------
+****In items.py: select which item need get
+
+    import scrapy
+
+    class Weatherproject08Item(scrapy.Item):
+        # define the fields for your item here like:
+        # name = scrapy.Field()
+
+        cityData = scrapy.Field()
+        week = scrapy.Field()
+        img = scrapy.Field()
+        temperature = scrapy.Field()
+        weather = scrapy.Field()
+        wind = scrapy.Field()
+
+--------------------------------------------------------------
+****In daLianSpider.py: define how to get
+
+    import scrapy, re
+    from WeatherProject_08.items import Weatherproject08Item
+
+    class DalianspiderSpider(scrapy.Spider):
+        name = 'daLianSpider'
+        allowed_domains = ['www.tianqi.com']
+        start_urls = []
+        citys = ["dalian, shenyang, fushun"]
+        for city in citys:
+            start_urls.append("http://www.tianqi.com/" + city + "/")
+
+        def parse(self, response):
+            items = []
+            item = Weatherproject08Item()
+            
+            item['cityData'] = response.xpath('//dd[@class="name"]/h2//text()').extract()
+            item['week'] = response.xpath('//ul[@class="week"]/li/b//text()').extract()
+            item['img'] = response.xpath('//ul[@class="week"]/li/img/@src').extract()
+
+            tempUp = response.xpath('//ul/li/span//text()').extract()
+            tempDown = response.xpath('//ul/li/b//text()').extract()
+            temperUpLimited = []
+            temperDownLimited = []
+            for i in tempUp:
+                if re.match("[0-9]*", i).group() == i:
+                    temperUpLimited.append(i)
+            for i in tempDown:
+                if re.match("[0-9]*", i).group() == i:
+                    temperDownLimited.append(i)
+            temper = []
+            for i in range(len(temperUpLimited)):
+                temper.append(temperDownLimited[i] + "-" + temperUpLimited[i])
+            item['temperature'] = temper
+
+            item['weather'] = response.xpath('//ul[@class="txt txt2"]/li//text()').extract()
+            item['wind'] = response.xpath('//ul[@class="txt"]/li//text()').extract()
+
+            items.append(item)
+            return items
+
+--------------------------------------------------------------
+**** In pipelines.py: define how to save
+
+    import time, os.path, urllib.request
+    class Weatherproject08Pipeline(object):
+        def process_item(self, item, spider):
+            today = time.strftime("%Y%m%d", time.localtime())
+            fileName = "08_Weather_" + today + ".txt"
+            f1 = open(fileName, 'a')
+            f1.write("City :" + item["cityData"][0] + "\n")
+            f1.write("-" * 60 + "\n")
+            for i in range(len(item["week"])):
+                f1.write("{:<12}".format(item["week"][i]))
+                f1.write("{:<12}".format(item["temperature"][i]))
+                f1.write("{:<8}".format(item["weather"][i]))
+                f1.write("{:<8}".format(item["wind"][i]))
+                temp = item["img"][i].split("/")
+                f1.write("{:<12}".format(temp[-1]))
+                f1.write("\n")
+            f1.write("-" * 60 + "\n")
+            f1.close()
+
+            fileName = "08_Weather_" + today + ".json"
+            f2 = codecs.open(fileName, 'a', encoding = "utf-8")
+            line = json.dumps(dict(item), ensure_ascii = False) + "\n"
+            f2.write(line)
+            f2.close()
+            return item
+
+--------------------------------------------------------------
+**** In settings.py : start mission
+
+    BOT_NAME = 'WeatherProject_08'
+    SPIDER_MODULES = ['WeatherProject_08.spiders']
+    NEWSPIDER_MODULE = 'WeatherProject_08.spiders'
+    ROBOTSTXT_OBEY = True
+
+--------------------------------------------------------------
+****In CMD:
+> 172-6-2-26:WeatherProject_08 OurEDA$ scrapy crawl daLianSpider
+<
+2018-09-21 18:52:28 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: WeatherProject_08)
+2018-09-21 18:52:29 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-14.5.0-x86_64-i386-64bit
+2018-09-21 18:52:29 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'WeatherProject_08', 'NEWSPIDER_MODULE': 'WeatherProject_08.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['WeatherProject_08.spiders']}
+2018-09-21 18:52:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-21 18:52:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-21 18:52:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-21 18:52:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['WeatherProject_08.pipelines.Weatherproject08Pipeline']
+2018-09-21 18:52:29 [scrapy.core.engine] INFO: Spider opened
+2018-09-21 18:52:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-21 18:52:29 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-09-21 18:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.tianqi.com/robots.txt> (referer: None)
+2018-09-21 18:52:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.tianqi.com/dalian/> (referer: None)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-09-21 18:52:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.tianqi.com/dalian/>
+{'cityData': ['大连'],
+ 'img': ['/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png'],
+ 'temperature': ['17 - 24',
+                 '16 - 21',
+                 '14 - 20',
+                 '15 - 21',
+                 '17 - 22',
+                 '17 - 22',
+                 '18 - 22'],
+ 'weather': ['晴', '晴', '晴', '晴', '多云', '多云', '多云'],
+ 'week': ['09月21日', '09月22日', '09月23日', '09月24日', '09月25日', '09月26日', '09月27日'],
+ 'wind': ['西风', '西风', '西北风', '北风', '西北风', '东风', '东风']}
+2018-09-21 18:52:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.tianqi.com/shenyang/> (referer: None)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-09-21 18:52:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.tianqi.com/shenyang/>
+{'cityData': ['沈阳'],
+ 'img': ['/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b7.png'],
+ 'temperature': ['12 - 21',
+                 '10 - 21',
+                 '8 - 19',
+                 '7 - 19',
+                 '8 - 21',
+                 '8 - 22',
+                 '10 - 22'],
+ 'weather': ['晴', '多云', '多云', '多云', '多云', '多云', '小雨'],
+ 'week': ['09月21日', '09月22日', '09月23日', '09月24日', '09月25日', '09月26日', '09月27日'],
+ 'wind': ['西南风', '西南风', '西南风', '西北风', '南风', '东风', '南风']}
+2018-09-21 18:52:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.tianqi.com/fushun/> (referer: None)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2018-09-21 18:52:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.tianqi.com/fushun/>
+{'cityData': ['抚顺'],
+ 'img': ['/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b0.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b1.png',
+         '/static/wap2018/ico1/b7.png'],
+ 'temperature': ['9 - 22',
+                 '7 - 19',
+                 '3 - 19',
+                 '2 - 17',
+                 '2 - 20',
+                 '2 - 21',
+                 '2 - 21'],
+ 'weather': ['晴', '多云', '多云', '晴', '多云', '多云', '小雨'],
+ 'week': ['09月21日', '09月22日', '09月23日', '09月24日', '09月25日', '09月26日', '09月27日'],
+ 'wind': ['西南风', '西南风', '西南风', '西风', '南风', '东风', '南风']}
+2018-09-21 18:52:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-09-21 18:52:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 681573,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 9, 21, 10, 52, 39, 514260),
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 8,
+ 'log_count/INFO': 7,
+ 'memusage/max': 46444544,
+ 'memusage/startup': 46444544,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2018, 9, 21, 10, 52, 29, 103158)}
+2018-09-21 18:52:39 [scrapy.core.engine] INFO: Spider closed (finished)
+            
+
+
+
